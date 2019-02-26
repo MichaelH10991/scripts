@@ -1,0 +1,700 @@
+Script started on Wed 13 Feb 2019 16:38:31 GMT
+]0;michael@michael-virtual-machine: ~/Documents/BashScripts[01;32mmichael@michael-virtual-machine[00m:[01;34m~/Documents/BashScripts[00m$ ./script 
+hello world
+the value of "i" is 8.
+the value of "i" is now 13.
+values of "i" in the loop are: 7 8 9 11 ]0;michael@michael-virtual-machine: ~/Documents/BashScripts[01;32mmichael@michael-virtual-machine[00m:[01;34m~/Documents/BashScripts[00m$ ./HelloWord
+bash: ./HelloWord: No such file or directory
+]0;michael@michael-virtual-machine: ~/Documents/BashScripts[01;32mmichael@michael-virtual-machine[00m:[01;34m~/Documents/BashScripts[00m$ ./HelloWordld
+bash: ./HelloWorld: Permission denied
+]0;michael@michael-virtual-machine: ~/Documents/BashScripts[01;32mmichael@michael-virtual-machine[00m:[01;34m~/Documents/BashScripts[00m$ chmod 775 HelloWorld 
+]0;michael@michael-virtual-machine: ~/Documents/BashScripts[01;32mmichael@michael-virtual-machine[00m:[01;34m~/Documents/BashScripts[00m$ chmod 775 HelloWorld [9P./HelloWorld
+Hello World
+]0;michael@michael-virtual-machine: ~/Documents/BashScripts[01;32mmichael@michael-virtual-machine[00m:[01;34m~/Documents/BashScripts[00m$ ls
+[0m[01;32mHelloWorld[0m  ScreenRes  [01;32mscript[0m  typescript
+]0;michael@michael-virtual-machine: ~/Documents/BashScripts[01;32mmichael@michael-virtual-machine[00m:[01;34m~/Documents/BashScripts[00m$ Hell[K[K[K[K..
+cd ..
+]0;michael@michael-virtual-machine: ~/Documents[01;32mmichael@michael-virtual-machine[00m:[01;34m~/Documents[00m$ ..
+cd ..
+]0;michael@michael-virtual-machine: ~[01;32mmichael@michael-virtual-machine[00m:[01;34m~[00m$ ./HelloWord
+bash: ./HelloWord: No such file or directory
+]0;michael@michael-virtual-machine: ~[01;32mmichael@michael-virtual-machine[00m:[01;34m~[00m$ ./HelloWord[K[K[K[KWoer[K[Krld
+bash: ./HelloWorld: No such file or directory
+]0;michael@michael-virtual-machine: ~[01;32mmichael@michael-virtual-machine[00m:[01;34m~[00m$ ls
+[0m[01;34mDesktop[0m           hs_err_pid22962.log  [01;34mmysourcecoderepo[0m  solution2.py
+[01;34mDocuments[0m         hs_err_pid30395.log  [01;34mnode_modules[0m      [01;34mTemplates[0m
+[01;34mDownloads[0m         hs_err_pid585.log    [01;34mPictures[0m          [01;34mvenv[0m
+examples.desktop  json-simple          [01;34mproject_euler[0m     [01;34mVideos[0m
+[01;34mgit_bantz[0m         [01;34mMusic[0m                [01;34mPublic[0m            [01;34mworkspace[0m
+]0;michael@michael-virtual-machine: ~[01;32mmichael@michael-virtual-machine[00m:[01;34m~[00m$ Public/
+cd Public/
+]0;michael@michael-virtual-machine: ~/Public[01;32mmichael@michael-virtual-machine[00m:[01;34m~/Public[00m$ ls
+]0;michael@michael-virtual-machine: ~/Public[01;32mmichael@michael-virtual-machine[00m:[01;34m~/Public[00m$ ..
+cd ..
+]0;michael@michael-virtual-machine: ~[01;32mmichael@michael-virtual-machine[00m:[01;34m~[00m$ ls
+[0m[01;34mDesktop[0m           hs_err_pid22962.log  [01;34mmysourcecoderepo[0m  solution2.py
+[01;34mDocuments[0m         hs_err_pid30395.log  [01;34mnode_modules[0m      [01;34mTemplates[0m
+[01;34mDownloads[0m         hs_err_pid585.log    [01;34mPictures[0m          [01;34mvenv[0m
+examples.desktop  json-simple          [01;34mproject_euler[0m     [01;34mVideos[0m
+[01;34mgit_bantz[0m         [01;34mMusic[0m                [01;34mPublic[0m            [01;34mworkspace[0m
+]0;michael@michael-virtual-machine: ~[01;32mmichael@michael-virtual-machine[00m:[01;34m~[00m$ vi solution2.py 
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;24r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[24;1H"solution2.py" 10L, 139C[>c[27m[23m[m[H[2J[1;1H[38;5;81mfrom[m math [38;5;81mimport[m gcd
+
+[93mdef[m [1m[96mlcm[m(a, b):[4;9H[93mreturn[m(a*b)//gcd(a,b)
+
+cur_lcm = [95m1[m
+[93mfor[m i [93min[m [1m[96mrange[m([95m1[m, [95m21[m):[8;9Hcur_lcm = lcm(i, cur_lcm)
+
+[1m[96mprint[m(cur_lcm)
+[94m~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll"solution2.py" 10L, 139C[38C   [11C   [1;1H[?12l[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?25l[24;1H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"solution2.py" 10L, 139C written
+[?1l>[?12l[?25h[?1049l]0;michael@michael-virtual-machine: ~[01;32mmichael@michael-virtual-machine[00m:[01;34m~[00m$ wqwq:::wq:wq:wq:wq;wq:wq:q:q![K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Klsa[K[K[Kla
+[0m[01;34m.aws[0m              hs_err_pid22962.log  .python_history
+.bash_history     hs_err_pid30395.log  [01;34m.serverless[0m
+.bash_logout      hs_err_pid585.log    .serverlessrc
+.bashrc           .ICEauthority        solution2.py
+[01;34m.cache[0m            [01;34m.idea[0m                .solution.py.swp
+[01;34m.compiz[0m           [01;34m.java[0m                [01;34m.ssh[0m
+[01;34m.config[0m           json-simple          .sudo_as_admin_successful
+[01;34m.dbus[0m             [01;34m.local[0m               [01;34m.swt[0m
+[01;34mDesktop[0m           [01;34m.mozilla[0m             [01;34mTemplates[0m
+.dmrc             [01;34mMusic[0m                [01;34mvenv[0m
+[01;34mDocuments[0m         [01;34mmysourcecoderepo[0m     [01;34mVideos[0m
+[01;34mDownloads[0m         [01;34m.nano[0m                .viminfo
+[01;34m.eclipse[0m          [01;34mnode_modules[0m         .wget-hsts
+examples.desktop  [01;34m.npm[0m                 [01;34mworkspace[0m
+[01;34m.gconf[0m            [01;34mPictures[0m             .Xauthority
+[01;34mgit_bantz[0m         .profile             .xsession-errors
+.gitconfig        [01;34mproject_euler[0m        .xsession-errors.old
+.git-prompt.sh    [01;34mPublic[0m
+[01;34m.gnupg[0m            [01;34m.PyCharm2018.3[0m
+]0;michael@michael-virtual-machine: ~[01;32mmichael@michael-virtual-machine[00m:[01;34m~[00m$ ls -a
+[0m[01;34m.[0m              examples.desktop     [01;34mMusic[0m             [01;34m.ssh[0m
+[01;34m..[0m             [01;34m.gconf[0m               [01;34mmysourcecoderepo[0m  .sudo_as_admin_successful
+[01;34m.aws[0m           [01;34mgit_bantz[0m            [01;34m.nano[0m             [01;34m.swt[0m
+.bash_history  .gitconfig           [01;34mnode_modules[0m      [01;34mTemplates[0m
+.bash_logout   .git-prompt.sh       [01;34m.npm[0m              [01;34mvenv[0m
+.bashrc        [01;34m.gnupg[0m               [01;34mPictures[0m          [01;34mVideos[0m
+[01;34m.cache[0m         hs_err_pid22962.log  .profile          .viminfo
+[01;34m.compiz[0m        hs_err_pid30395.log  [01;34mproject_euler[0m     .wget-hsts
+[01;34m.config[0m        hs_err_pid585.log    [01;34mPublic[0m            [01;34mworkspace[0m
+[01;34m.dbus[0m          .ICEauthority        [01;34m.PyCharm2018.3[0m    .Xauthority
+[01;34mDesktop[0m        [01;34m.idea[0m                .python_history   .xsession-errors
+.dmrc          [01;34m.java[0m                [01;34m.serverless[0m       .xsession-errors.old
+[01;34mDocuments[0m      json-simple          .serverlessrc
+[01;34mDownloads[0m      [01;34m.local[0m               solution2.py
+[01;34m.eclipse[0m       [01;34m.mozilla[0m             .solution.py.swp
+]0;michael@michael-virtual-machine: ~[01;32mmichael@michael-virtual-machine[00m:[01;34m~[00m$ lsllsls
+lsllsls: command not found
+]0;michael@michael-virtual-machine: ~[01;32mmichael@michael-virtual-machine[00m:[01;34m~[00m$ lololol
+lololol: command not found
+]0;michael@michael-virtual-machine: ~[01;32mmichael@michael-virtual-machine[00m:[01;34m~[00m$ ..
+cd ..
+]0;michael@michael-virtual-machine: /home[01;32mmichael@michael-virtual-machine[00m:[01;34m/home[00m$ ls
+[0m[01;34mmichael[0m
+]0;michael@michael-virtual-machine: /home[01;32mmichael@michael-virtual-machine[00m:[01;34m/home[00m$ ..
+cd ..
+]0;michael@michael-virtual-machine: /[01;32mmichael@michael-virtual-machine[00m:[01;34m/[00m$ ls
+[0m[01;34mbin[0m    [01;34metc[0m                [01;36minitrd.img.old[0m  [01;34mmedia[0m  [01;34mroot[0m  [01;34msrv[0m  [01;34mvar[0m
+[01;34mboot[0m   etc.X11.xorg.conf  [01;34mlib[0m             [01;34mmnt[0m    [01;34mrun[0m   [01;34msys[0m  [01;36mvmlinuz[0m
+[01;34mcdrom[0m  [01;34mhome[0m               [01;34mlib64[0m           [01;34mopt[0m    [01;34msbin[0m  [30;42mtmp[0m  [01;36mvmlinuz.old[0m
+[01;34mdev[0m    [01;36minitrd.img[0m         [01;34mlost+found[0m      [01;34mproc[0m   [01;34msnap[0m  [01;34musr[0m
+]0;michael@michael-virtual-machine: /[01;32mmichael@michael-virtual-machine[00m:[01;34m/[00m$ bin
+cd bin
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ ls
+[0m[01;32mbash[0m           [37;41mfusermount[0m  [01;32mnetworkctl[0m        [01;32mstty[0m
+[01;32mbunzip2[0m        [01;32mgetfacl[0m     [01;36mnisdomainname[0m     [37;41msu[0m
+[01;32mbusybox[0m        [01;32mgrep[0m        [37;41mntfs-3g[0m           [01;32msync[0m
+[01;32mbzcat[0m          [01;32mgunzip[0m      [01;32mntfs-3g.probe[0m     [01;32msystemctl[0m
+[01;36mbzcmp[0m          [01;32mgzexe[0m       [01;32mntfs-3g.secaudit[0m  [01;36msystemd[0m
+[01;32mbzdiff[0m         [01;32mgzip[0m        [01;32mntfs-3g.usermap[0m   [01;32msystemd-ask-password[0m
+[01;36mbzegrep[0m        [01;32mhciconfig[0m   [01;32mntfscat[0m           [01;32msystemd-escape[0m
+[01;32mbzexe[0m          [01;32mhostname[0m    [01;32mntfscluster[0m       [01;32msystemd-hwdb[0m
+[01;36mbzfgrep[0m        [01;32mip[0m          [01;32mntfscmp[0m           [01;32msystemd-inhibit[0m
+[01;32mbzgrep[0m         [01;32mjournalctl[0m  [01;32mntfsfallocate[0m     [01;32msystemd-machine-id-setup[0m
+[01;32mbzip2[0m          [01;32mkbd_mode[0m    [01;32mntfsfix[0m           [01;32msystemd-notify[0m
+[01;32mbzip2recover[0m   [01;32mkill[0m        [01;32mntfsinfo[0m          [01;32msystemd-tmpfiles[0m
+[01;36mbzless[0m         [01;32mkmod[0m        [01;32mntfsls[0m            [01;32msystemd-tty-ask-password-agent[0m
+[01;32mbzmore[0m         [01;32mless[0m        [01;32mntfsmove[0m          [01;32mtailf[0m
+[01;32mcat[0m            [01;32mlessecho[0m    [01;32mntfstruncate[0m      [01;32mtar[0m
+[01;32mchacl[0m          [01;36mlessfile[0m    [01;32mntfswipe[0m          [01;32mtempfile[0m
+[01;32mchgrp[0m          [01;32mlesskey[0m     [01;36mopen[0m              [01;32mtouch[0m
+[01;32mchmod[0m          [01;32mlesspipe[0m    [01;32mopenvt[0m            [01;32mtrue[0m
+[01;32mchown[0m          [01;32mln[0m          [01;36mpidof[0m             [01;32mudevadm[0m
+[01;32mchvt[0m           [01;32mloadkeys[0m    [37;41mping[0m              [01;32mulockmgr_server[0m
+[01;32mcp[0m             [01;32mlogin[0m       [37;41mping6[0m             [37;41mumount[0m
+[01;32mcpio[0m           [01;32mloginctl[0m    [01;32mplymouth[0m          [01;32muname[0m
+[01;32mdash[0m           [01;32mlowntfs-3g[0m  [01;32mps[0m                [01;32muncompress[0m
+[01;32mdate[0m           [01;32mls[0m          [01;32mpwd[0m               [01;32municode_start[0m
+[01;32mdd[0m             [01;32mlsblk[0m       [01;36mrbash[0m             [01;32mvdir[0m
+[01;32mdf[0m             [01;36mlsmod[0m       [01;32mreadlink[0m          [01;32mwdctl[0m
+[01;32mdir[0m            [01;32mmkdir[0m       [01;32mred[0m               [01;32mwhich[0m
+[01;32mdmesg[0m          [01;32mmknod[0m       [01;32mrm[0m                [01;32mwhiptail[0m
+[01;36mdnsdomainname[0m  [01;32mmktemp[0m      [01;32mrmdir[0m             [01;36mypdomainname[0m
+[01;36mdomainname[0m     [01;32mmore[0m        [01;36mrnano[0m             [01;32mzcat[0m
+[01;32mdumpkeys[0m       [37;41mmount[0m       [01;32mrun-parts[0m         [01;32mzcmp[0m
+[01;32mecho[0m           [01;32mmountpoint[0m  [01;32msed[0m               [01;32mzdiff[0m
+[01;32med[0m             [01;36mmt[0m          [01;32msetfacl[0m           [01;32mzegrep[0m
+[01;32mefibootmgr[0m     [01;32mmt-gnu[0m      [01;32msetfont[0m           [01;32mzfgrep[0m
+[01;32megrep[0m          [01;32mmv[0m          [01;32msetupcon[0m          [01;32mzforce[0m
+[01;32mfalse[0m          [01;32mnano[0m        [01;36msh[0m                [01;32mzgrep[0m
+[01;32mfgconsole[0m      [01;36mnc[0m          [01;36msh.distrib[0m        [01;32mzless[0m
+[01;32mfgrep[0m          [01;32mnc.openbsd[0m  [01;32msleep[0m             [01;32mzmore[0m
+[01;32mfindmnt[0m        [01;36mnetcat[0m      [01;32mss[0m                [01;32mznew[0m
+[01;32mfuser[0m          [01;32mnetstat[0m     [01;36mstatic-sh[0m
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ vi curse
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;24r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[24;1H"curse" [New File][>c[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll[1;1H[?12l[?25h[27m[23m[m[H[2J[?25l[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll"curse" [New File][1;1HP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;14H[K[24;63H0,1[11CAll[1;1H[?12l[?25h[?25li[24;63H1,2[1;2H[?12l[?25h[?25le[24;65H3[1;3H[?12l[?25h[?25lc[24;65H4[1;4H[?12l[?25h[?25lh[24;65H5[1;5H[?12l[?25h[?25lo[24;65H6[1;6H[?12l[?25h[?25l[24;65H7[1;7H[?12l[?25h[?25l[24;65H6[1;6H[?12l[?25h[?25l[1;5H[K[24;65H5[1;5H[?12l[?25h[?25l[1;4H[K[24;65H4[1;4H[?12l[?25h[?25l[1;3H[K[24;65H3[1;3H[?12l[?25h[?25l[1;2H[K[24;65H2[1;2H[?12l[?25h[?25l[1;1H[K[24;65H1[1;1H[?12l[?25h[?25le[24;65H2[1;2H[?12l[?25h[?25lc[24;65H3[1;3H[?12l[?25h[?25lh[24;65H4[1;4H[?12l[?25h[?25lo[24;65H5[1;5H[?12l[?25h[?25l[24;65H6[1;6H[?12l[?25h[?25l"[24;65H7[1;7H[?12l[?25h[?25lF[24;65H8[1;8H[?12l[?25h[?25lo[24;65H9[1;9H[?12l[?25h[?25lr[24;65H10[1;10H[?12l[?25h[?25l[24;66H1[1;11H[?12l[?25h[?25lg[24;66H2[1;12H[?12l[?25h[?25lo[24;66H3[1;13H[?12l[?25h[?25lo[24;66H4[1;14H[?12l[?25h[?25ld[24;66H5[1;15H[?12l[?25h[?25ln[24;66H6[1;16H[?12l[?25h[?25le[24;66H7[1;17H[?12l[?25h[?25ls[24;66H8[1;18H[?12l[?25h[?25ls[24;66H9[1;19H[?12l[?25h[?25l[24;65H20[1;20H[?12l[?25h[?25ln[24;66H1[1;21H[?12l[?25h[?25l[1;20H[K[24;66H0[1;20H[?12l[?25h[?25ls[24;66H1[1;21H[?12l[?25h[?25la[24;66H2[1;22H[?12l[?25h[?25lk[24;66H3[1;23H[?12l[?25h[?25le[24;66H4[1;24H[?12l[?25h[?25l![24;66H5[1;25H[?12l[?25h[?25l"[24;66H6[1;26H[?12l[?25h[?25l[24;66H5[1;25H[?12l[?25h[?25l[24;66H4[1;24H[?12l[?25h[?25l[24;66H3[1;23H[?12l[?25h[?25l[24;66H2[1;22H[?12l[?25h[?25l[24;66H1[1;21H[?12l[?25h[?25l[24;66H0[1;20H[?12l[?25h[?25l[24;65H19[1;19H[?12l[?25h[?25l[24;66H8[1;18H[?12l[?25h[?25l[24;66H7[1;17H[?12l[?25h[?25l[24;66H6[1;16H[?12l[?25h[?25l[24;66H5[1;15H[?12l[?25h[?25l[24;66H4[1;14H[?12l[?25h[?25l[24;66H3[1;13H[?12l[?25h[?25l[24;66H2[1;12H[?12l[?25h[?25l[24;66H1[1;11H[?12l[?25h[?25l[24;66H0[1;10H[?12l[?25h[?25l[24;65H9 [1;9H[?12l[?25h[?25l[24;65H8[1;8H[?12l[?25h[?25l[24;65H7[1;7H[?12l[?25h[?25l[24;65H6[1;6H[?12l[?25h[?25l[24;65H5[1;5H[?12l[?25h[?25l[24;65H4[1;4H[?12l[?25h[?25l[24;65H3[1;3H[?12l[?25h[?25l[24;65H2[1;2H[?12l[?25h[?25l[24;65H1[1;1H[?12l[?25h[?25l[1;1H[K[2;1Hecho "For goodness sake!"[2;26H[K[24;63H2[2;1H[?12l[?25h[?25l[24;63H1[1;1H[?12l[?25h[?25l[2;23r[2;1H[L[1;24r[24;63H[K[24;63H2,1[11CAll[2;1H[?12l[?25h[?25l[24;63H1[1;1H[?12l[?25h[?25l'[24;65H2[1;2H[?12l[?25h[?25l[1;1H[K[24;65H1[1;1H[?12l[?25h[?25l#[24;65H2[1;2H[?12l[?25h[?25l![24;65H3[1;3H[?12l[?25h[?25l/[24;65H4[1;4H[?12l[?25h[?25lb[24;65H5[1;5H[?12l[?25h[?25li[24;65H6[1;6H[?12l[?25h[?25ln[24;65H7[1;7H[?12l[?25h[?25l/[24;65H8[1;8H[?12l[?25h[?25lb[24;65H9[1;9H[?12l[?25h[?25la[24;65H10[1;10H[?12l[?25h[?25ls[24;66H1[1;11H[?12l[?25h[?25lh[24;66H2[1;12H[?12l[?25h[24;1H[K[1;11H[?25l[24;63H1,11[10CAll[1;11H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"curse"
+[97m[41m"curse" E212: Cannot open file for writing[m
+[38;5;121mPress ENTER or type command to continue[?12l[?25h[m[1;1H[2L[?25l[1;1H#!/bin/bash[24;1H[K[24;63H1,11[10CAll[1;11H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hq[?25l[?12l[?25h[?25l[97m[41mE37: No write since last change (add ! to override)[m[11C1,11[10CAll[1;11H[?12l[?25h[?25l[24;1H[K[24;1H:[?12l[?25hq[?25l[?12l[?25h![?25l[?12l[?25h[?25l[24;1H[K[24;1H[?1l>[?12l[?25h[?1049l]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ suco[K[Kdo vi curse
+[sudo] password for michael: 
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;24r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[24;1H"curse" [New File][>c[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll[1;1H[?12l[?25h[27m[23m[m[H[2J[?25l[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll"curse" [New File][1;1HP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12l[?25h[?25l[24;1H[97m[41mE348: No string under cursor[m[24;63H[K[24;63H0,0-1[9CAll[1;1H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H0,1[11CAll[1;1H[?12l[?25h[?25l'[24;63H1,2[1;2H[?12l[?25h[?25l[1;1H[K[24;65H1[1;1H[?12l[?25h[?25l#[24;65H2[1;2H[?12l[?25h[?25l[24;65H3[1;3H[?12l[?25h[?25l![24;65H4[1;4H[?12l[?25h[?25lb[24;65H5[1;5H[?12l[?25h[?25li[24;65H6[1;6H[?12l[?25h[?25ln[24;65H7[1;7H[?12l[?25h[?25l[24;65H8[1;8H[?12l[?25h[?25l[24;65H7[1;7H[?12l[?25h[?25l/[24;65H8[1;8H[?12l[?25h[?25l[1;7H[K[24;65H7[1;7H[?12l[?25h[?25l[1;6H[K[24;65H6[1;6H[?12l[?25h[?25l[1;5H[K[24;65H5[1;5H[?12l[?25h[?25l[1;4H[K[24;65H4[1;4H[?12l[?25h[?25l[1;3H[K[24;65H3[1;3H[?12l[?25h[?25l[24;65H2[1;2H[?12l[?25h[?25l[1;1H[K[24;65H1[1;1H[?12l[?25h[?25l![24;65H2[1;2H[?12l[?25h[?25l/[24;65H3[1;3H[?12l[?25h[?25lb[24;65H4[1;4H[?12l[?25h[?25li[24;65H5[1;5H[?12l[?25h[?25ln[24;65H6[1;6H[?12l[?25h[?25l/[24;65H7[1;7H[?12l[?25h[?25lb[24;65H8[1;8H[?12l[?25h[?25la[24;65H9[1;9H[?12l[?25h[?25ls[24;65H10[1;10H[?12l[?25h[?25lh[24;66H1[1;11H[?12l[?25h[?25l[24;66H0[1;10H[?12l[?25h[?25l[24;65H9 [1;9H[?12l[?25h[?25l[24;65H8[1;8H[?12l[?25h[?25l[24;65H7[1;7H[?12l[?25h[?25l[24;65H6[1;6H[?12l[?25h[?25l[24;65H5[1;5H[?12l[?25h[?25l[24;65H4[1;4H[?12l[?25h[?25l[24;65H3[1;3H[?12l[?25h[?25l[24;65H2[1;2H[?12l[?25h[?25l[24;65H1[1;1H[?12l[?25h[?25l#!/bin/bash[24;65H2[1;2H[?12l[?25h[?25l[24;65H3[1;3H[?12l[?25h[?25l[24;65H4[1;4H[?12l[?25h[?25l[24;65H5[1;5H[?12l[?25h[?25l[24;65H6[1;6H[?12l[?25h[?25l[24;65H7[1;7H[?12l[?25h[?25l[24;65H8[1;8H[?12l[?25h[?25l[24;65H9[1;9H[?12l[?25h[?25l[24;65H10[1;10H[?12l[?25h[?25l[24;66H1[1;11H[?12l[?25h[?25l[24;66H2[1;12H[?12l[?25h[?25l[2;1H[K[24;63H2,1 [2;1H[?12l[?25h[?25l[3;1H[K[24;63H3[3;1H[?12l[?25h[?25le[24;65H2[3;2H[?12l[?25h[?25lc[24;65H3[3;3H[?12l[?25h[?25lh[24;65H4[3;4H[?12l[?25h[?25lo[24;65H5[3;5H[?12l[?25h[?25l[24;65H6[3;6H[?12l[?25h[?25l"[24;65H7[3;7H[?12l[?25h[?25lF[24;65H8[3;8H[?12l[?25h[?25lo[24;65H9[3;9H[?12l[?25h[?25lr[24;65H10[3;10H[?12l[?25h[?25l[24;66H1[3;11H[?12l[?25h[?25lg[24;66H2[3;12H[?12l[?25h[?25lo[24;66H3[3;13H[?12l[?25h[?25lo[24;66H4[3;14H[?12l[?25h[?25ld[24;66H5[3;15H[?12l[?25h[?25ln[24;66H6[3;16H[?12l[?25h[?25le[24;66H7[3;17H[?12l[?25h[?25ls[24;66H8[3;18H[?12l[?25h[?25ls[24;66H9[3;19H[?12l[?25h[?25l[24;65H20[3;20H[?12l[?25h[?25ln[24;66H1[3;21H[?12l[?25h[?25l[3;20H[K[24;66H0[3;20H[?12l[?25h[?25ls[24;66H1[3;21H[?12l[?25h[?25la[24;66H2[3;22H[?12l[?25h[?25ll[24;66H3[3;23H[?12l[?25h[?25lk[24;66H4[3;24H[?12l[?25h[?25le[24;66H5[3;25H[?12l[?25h[?25l[24;66H6[3;26H[?12l[?25h[?25l[24;66H5[3;25H[?12l[?25h[?25l[3;24H[K[24;66H4[3;24H[?12l[?25h[?25l[3;23H[K[24;66H3[3;23H[?12l[?25h[?25l[3;22H[K[24;66H2[3;22H[?12l[?25h[?25lk[24;66H3[3;23H[?12l[?25h[?25le[24;66H4[3;24H[?12l[?25h[?25l[24;66H5[3;25H[?12l[?25h[?25l[24;66H4[3;24H[?12l[?25h[?25l"[24;66H5[3;25H[?12l[?25h[24;1H[K[3;24H[?25l[24;63H3,24[10CAll[3;24H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"curse" [New] 3L, 38C written
+[?1l>[?12l[?25h[?1049l]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ sudo chmod 755 cure[Kse
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ ls
+[0m[01;32mbash[0m           [01;32mfuser[0m       [01;32mnetstat[0m           [01;36mstatic-sh[0m
+[01;32mbunzip2[0m        [37;41mfusermount[0m  [01;32mnetworkctl[0m        [01;32mstty[0m
+[01;32mbusybox[0m        [01;32mgetfacl[0m     [01;36mnisdomainname[0m     [37;41msu[0m
+[01;32mbzcat[0m          [01;32mgrep[0m        [37;41mntfs-3g[0m           [01;32msync[0m
+[01;36mbzcmp[0m          [01;32mgunzip[0m      [01;32mntfs-3g.probe[0m     [01;32msystemctl[0m
+[01;32mbzdiff[0m         [01;32mgzexe[0m       [01;32mntfs-3g.secaudit[0m  [01;36msystemd[0m
+[01;36mbzegrep[0m        [01;32mgzip[0m        [01;32mntfs-3g.usermap[0m   [01;32msystemd-ask-password[0m
+[01;32mbzexe[0m          [01;32mhciconfig[0m   [01;32mntfscat[0m           [01;32msystemd-escape[0m
+[01;36mbzfgrep[0m        [01;32mhostname[0m    [01;32mntfscluster[0m       [01;32msystemd-hwdb[0m
+[01;32mbzgrep[0m         [01;32mip[0m          [01;32mntfscmp[0m           [01;32msystemd-inhibit[0m
+[01;32mbzip2[0m          [01;32mjournalctl[0m  [01;32mntfsfallocate[0m     [01;32msystemd-machine-id-setup[0m
+[01;32mbzip2recover[0m   [01;32mkbd_mode[0m    [01;32mntfsfix[0m           [01;32msystemd-notify[0m
+[01;36mbzless[0m         [01;32mkill[0m        [01;32mntfsinfo[0m          [01;32msystemd-tmpfiles[0m
+[01;32mbzmore[0m         [01;32mkmod[0m        [01;32mntfsls[0m            [01;32msystemd-tty-ask-password-agent[0m
+[01;32mcat[0m            [01;32mless[0m        [01;32mntfsmove[0m          [01;32mtailf[0m
+[01;32mchacl[0m          [01;32mlessecho[0m    [01;32mntfstruncate[0m      [01;32mtar[0m
+[01;32mchgrp[0m          [01;36mlessfile[0m    [01;32mntfswipe[0m          [01;32mtempfile[0m
+[01;32mchmod[0m          [01;32mlesskey[0m     [01;36mopen[0m              [01;32mtouch[0m
+[01;32mchown[0m          [01;32mlesspipe[0m    [01;32mopenvt[0m            [01;32mtrue[0m
+[01;32mchvt[0m           [01;32mln[0m          [01;36mpidof[0m             [01;32mudevadm[0m
+[01;32mcp[0m             [01;32mloadkeys[0m    [37;41mping[0m              [01;32mulockmgr_server[0m
+[01;32mcpio[0m           [01;32mlogin[0m       [37;41mping6[0m             [37;41mumount[0m
+[01;32mcurse[0m          [01;32mloginctl[0m    [01;32mplymouth[0m          [01;32muname[0m
+[01;32mdash[0m           [01;32mlowntfs-3g[0m  [01;32mps[0m                [01;32muncompress[0m
+[01;32mdate[0m           [01;32mls[0m          [01;32mpwd[0m               [01;32municode_start[0m
+[01;32mdd[0m             [01;32mlsblk[0m       [01;36mrbash[0m             [01;32mvdir[0m
+[01;32mdf[0m             [01;36mlsmod[0m       [01;32mreadlink[0m          [01;32mwdctl[0m
+[01;32mdir[0m            [01;32mmkdir[0m       [01;32mred[0m               [01;32mwhich[0m
+[01;32mdmesg[0m          [01;32mmknod[0m       [01;32mrm[0m                [01;32mwhiptail[0m
+[01;36mdnsdomainname[0m  [01;32mmktemp[0m      [01;32mrmdir[0m             [01;36mypdomainname[0m
+[01;36mdomainname[0m     [01;32mmore[0m        [01;36mrnano[0m             [01;32mzcat[0m
+[01;32mdumpkeys[0m       [37;41mmount[0m       [01;32mrun-parts[0m         [01;32mzcmp[0m
+[01;32mecho[0m           [01;32mmountpoint[0m  [01;32msed[0m               [01;32mzdiff[0m
+[01;32med[0m             [01;36mmt[0m          [01;32msetfacl[0m           [01;32mzegrep[0m
+[01;32mefibootmgr[0m     [01;32mmt-gnu[0m      [01;32msetfont[0m           [01;32mzfgrep[0m
+[01;32megrep[0m          [01;32mmv[0m          [01;32msetupcon[0m          [01;32mzforce[0m
+[01;32mfalse[0m          [01;32mnano[0m        [01;36msh[0m                [01;32mzgrep[0m
+[01;32mfgconsole[0m      [01;36mnc[0m          [01;36msh.distrib[0m        [01;32mzless[0m
+[01;32mfgrep[0m          [01;32mnc.openbsd[0m  [01;32msleep[0m             [01;32mzmore[0m
+[01;32mfindmnt[0m        [01;36mnetcat[0m      [01;32mss[0m                [01;32mznew[0m
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ curse
+For goodness sake
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ vi curse
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;24r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[24;1H"curse" [readonly] 3L, 38C[>c[27m[23m[m[H[2J[1;1H[96m#!/bin/bash[m
+
+[93mecho[m[95m [m[93m"[m[95mFor goodness sake[m[93m"[m
+[94m~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll"curse" [readonly] 3L, 38C[36C   [11C   [1;1H[?12l[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?25l[24;63H2,0-1[9CAll[2;1H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H2,1[11CAll[24;14H[38;5;224mW10: Warning: Changing a readonly file[m[24;63H[K[24;63H3,2[11CAll[3;2H[?12l[?25h[?25l[24;65H3[3;3H[?12l[?25h[?25l[24;65H4[3;4H[?12l[?25h[?25l[24;65H5[3;5H[?12l[?25h[?25l[24;65H6[3;6H[?12l[?25h[?25l[24;65H7[3;7H[?12l[?25h[?25l[24;65H8[3;8H[?12l[?25h[?25l[24;65H9[3;9H[?12l[?25h[?25l[24;65H10[3;10H[?12l[?25h[?25l[24;66H1[3;11H[?12l[?25h[?25l[24;66H2[3;12H[?12l[?25h[?25l[24;66H3[3;13H[?12l[?25h[?25l[24;66H4[3;14H[?12l[?25h[?25l[24;66H5[3;15H[?12l[?25h[?25l[24;66H6[3;16H[?12l[?25h[?25l[24;66H7[3;17H[?12l[?25h[?25l[24;66H8[3;18H[?12l[?25h[?25l[24;66H9[3;19H[?12l[?25h[?25l[24;65H20[3;20H[?12l[?25h[?25l[24;66H1[3;21H[?12l[?25h[?25l[24;66H2[3;22H[?12l[?25h[?25l[24;66H3[3;23H[?12l[?25h[?25l[24;66H4[3;24H[?12l[?25h[?25l[24;66H5[3;25H[?12l[?25h[?25l[24;66H4[3;24H[?12l[?25h[?25l[95m![m[93m"[m[24;66H5[3;25H[?12l[?25h[24;1H[K[3;24H[?25l[24;63H3,24[10CAll[3;24H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l[97m[41mE45: 'readonly' option is set (add ! to override)[m[13C3,24[10CAll[3;24H[?12l[?25h[?25l[24;1H[K[24;1H:[?12l[?25hq[?25l[?12l[?25h![?25l[?12l[?25h[?25l[24;1H[K[24;1H[?1l>[?12l[?25h[?1049l]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ sudo curse
+For goodness sake
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ sudo vi curse
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;24r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[24;1H"curse" 3L, 38C[>c[27m[23m[m[H[2J[1;1H[96m#!/bin/bash[m
+
+[93mecho[m[95m [m[93m"[m[95mFor goodness sake[m[93m"[m
+[94m~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll"curse" 3L, 38C[47C   [11C   [1;1H[?12l[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H1,1[11CAll[1;1H[?12l[?25h[?25l[24;63H2[2;1H[?12l[?25h[?25l[24;63H3[3;1H[?12l[?25h[?25l[24;65H2[3;2H[?12l[?25h[?25l[24;65H3[3;3H[?12l[?25h[?25l[24;65H4[3;4H[?12l[?25h[?25l[24;65H5[3;5H[?12l[?25h[?25l[24;65H6[3;6H[?12l[?25h[?25l[24;65H7[3;7H[?12l[?25h[?25l[24;65H8[3;8H[?12l[?25h[?25l[24;65H9[3;9H[?12l[?25h[?25l[24;65H10[3;10H[?12l[?25h[?25l[24;66H1[3;11H[?12l[?25h[?25l[24;66H2[3;12H[?12l[?25h[?25l[24;66H3[3;13H[?12l[?25h[?25l[24;66H4[3;14H[?12l[?25h[?25l[24;66H5[3;15H[?12l[?25h[?25l[24;66H6[3;16H[?12l[?25h[?25l[24;66H7[3;17H[?12l[?25h[?25l[24;66H8[3;18H[?12l[?25h[?25l[24;66H9[3;19H[?12l[?25h[?25l[24;65H20[3;20H[?12l[?25h[?25l[24;66H1[3;21H[?12l[?25h[?25l[24;66H2[3;22H[?12l[?25h[?25l[24;66H3[3;23H[?12l[?25h[?25l[24;66H4[3;24H[?12l[?25h[?25l[95m![m[93m"[m[24;66H5[3;25H[?12l[?25h[24;1H[K[3;24H[?25l[24;63H3,24[10CAll[3;24H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"curse" 3L, 39C written
+[?1l>[?12l[?25h[?1049l]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ curse
+For goodness sake!
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ clear
+[3;J[H[2J]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ #[K~/Do
+Documents/ Downloads/ 
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ ~/Do
+Documents/ Downloads/ 
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ ~/Documents/
+cd /home/michael/Documents/
+]0;michael@michael-virtual-machine: ~/Documents[01;32mmichael@michael-virtual-machine[00m:[01;34m~/Documents[00m$ ls
+[0m[01;34mBashScripts[0m  [01;34mgit_foo[0m  [01;34mhtmlStuff[0m  [01;34mnew_dir[0m  [01;34mnew_folder[0m
+]0;michael@michael-virtual-machine: ~/Documents[01;32mmichael@michael-virtual-machine[00m:[01;34m~/Documents[00m$ curse
+For goodness sake!
+]0;michael@michael-virtual-machine: ~/Documents[01;32mmichael@michael-virtual-machine[00m:[01;34m~/Documents[00m$ ..
+cd ..
+]0;michael@michael-virtual-machine: ~[01;32mmichael@michael-virtual-machine[00m:[01;34m~[00m$ ..
+cd ..
+]0;michael@michael-virtual-machine: /home[01;32mmichael@michael-virtual-machine[00m:[01;34m/home[00m$ ..
+cd ..
+]0;michael@michael-virtual-machine: /[01;32mmichael@michael-virtual-machine[00m:[01;34m/[00m$ bin
+cd bin
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ ls
+[0m[01;32mbash[0m           [01;32mfuser[0m       [01;32mnetstat[0m           [01;36mstatic-sh[0m
+[01;32mbunzip2[0m        [37;41mfusermount[0m  [01;32mnetworkctl[0m        [01;32mstty[0m
+[01;32mbusybox[0m        [01;32mgetfacl[0m     [01;36mnisdomainname[0m     [37;41msu[0m
+[01;32mbzcat[0m          [01;32mgrep[0m        [37;41mntfs-3g[0m           [01;32msync[0m
+[01;36mbzcmp[0m          [01;32mgunzip[0m      [01;32mntfs-3g.probe[0m     [01;32msystemctl[0m
+[01;32mbzdiff[0m         [01;32mgzexe[0m       [01;32mntfs-3g.secaudit[0m  [01;36msystemd[0m
+[01;36mbzegrep[0m        [01;32mgzip[0m        [01;32mntfs-3g.usermap[0m   [01;32msystemd-ask-password[0m
+[01;32mbzexe[0m          [01;32mhciconfig[0m   [01;32mntfscat[0m           [01;32msystemd-escape[0m
+[01;36mbzfgrep[0m        [01;32mhostname[0m    [01;32mntfscluster[0m       [01;32msystemd-hwdb[0m
+[01;32mbzgrep[0m         [01;32mip[0m          [01;32mntfscmp[0m           [01;32msystemd-inhibit[0m
+[01;32mbzip2[0m          [01;32mjournalctl[0m  [01;32mntfsfallocate[0m     [01;32msystemd-machine-id-setup[0m
+[01;32mbzip2recover[0m   [01;32mkbd_mode[0m    [01;32mntfsfix[0m           [01;32msystemd-notify[0m
+[01;36mbzless[0m         [01;32mkill[0m        [01;32mntfsinfo[0m          [01;32msystemd-tmpfiles[0m
+[01;32mbzmore[0m         [01;32mkmod[0m        [01;32mntfsls[0m            [01;32msystemd-tty-ask-password-agent[0m
+[01;32mcat[0m            [01;32mless[0m        [01;32mntfsmove[0m          [01;32mtailf[0m
+[01;32mchacl[0m          [01;32mlessecho[0m    [01;32mntfstruncate[0m      [01;32mtar[0m
+[01;32mchgrp[0m          [01;36mlessfile[0m    [01;32mntfswipe[0m          [01;32mtempfile[0m
+[01;32mchmod[0m          [01;32mlesskey[0m     [01;36mopen[0m              [01;32mtouch[0m
+[01;32mchown[0m          [01;32mlesspipe[0m    [01;32mopenvt[0m            [01;32mtrue[0m
+[01;32mchvt[0m           [01;32mln[0m          [01;36mpidof[0m             [01;32mudevadm[0m
+[01;32mcp[0m             [01;32mloadkeys[0m    [37;41mping[0m              [01;32mulockmgr_server[0m
+[01;32mcpio[0m           [01;32mlogin[0m       [37;41mping6[0m             [37;41mumount[0m
+[01;32mcurse[0m          [01;32mloginctl[0m    [01;32mplymouth[0m          [01;32muname[0m
+[01;32mdash[0m           [01;32mlowntfs-3g[0m  [01;32mps[0m                [01;32muncompress[0m
+[01;32mdate[0m           [01;32mls[0m          [01;32mpwd[0m               [01;32municode_start[0m
+[01;32mdd[0m             [01;32mlsblk[0m       [01;36mrbash[0m             [01;32mvdir[0m
+[01;32mdf[0m             [01;36mlsmod[0m       [01;32mreadlink[0m          [01;32mwdctl[0m
+[01;32mdir[0m            [01;32mmkdir[0m       [01;32mred[0m               [01;32mwhich[0m
+[01;32mdmesg[0m          [01;32mmknod[0m       [01;32mrm[0m                [01;32mwhiptail[0m
+[01;36mdnsdomainname[0m  [01;32mmktemp[0m      [01;32mrmdir[0m             [01;36mypdomainname[0m
+[01;36mdomainname[0m     [01;32mmore[0m        [01;36mrnano[0m             [01;32mzcat[0m
+[01;32mdumpkeys[0m       [37;41mmount[0m       [01;32mrun-parts[0m         [01;32mzcmp[0m
+[01;32mecho[0m           [01;32mmountpoint[0m  [01;32msed[0m               [01;32mzdiff[0m
+[01;32med[0m             [01;36mmt[0m          [01;32msetfacl[0m           [01;32mzegrep[0m
+[01;32mefibootmgr[0m     [01;32mmt-gnu[0m      [01;32msetfont[0m           [01;32mzfgrep[0m
+[01;32megrep[0m          [01;32mmv[0m          [01;32msetupcon[0m          [01;32mzforce[0m
+[01;32mfalse[0m          [01;32mnano[0m        [01;36msh[0m                [01;32mzgrep[0m
+[01;32mfgconsole[0m      [01;36mnc[0m          [01;36msh.distrib[0m        [01;32mzless[0m
+[01;32mfgrep[0m          [01;32mnc.openbsd[0m  [01;32msleep[0m             [01;32mzmore[0m
+[01;32mfindmnt[0m        [01;36mnetcat[0m      [01;32mss[0m                [01;32mznew[0m
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ sudo vi curse
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;24r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[24;1H"curse" 3L, 39C[>c[27m[23m[m[H[2J[1;1H[96m#!/bin/bash[m
+
+[93mecho[m[95m [m[93m"[m[95mFor goodness sake![m[93m"[m
+[94m~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll"curse" 3L, 39C[47C   [11C   [1;1HP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12l[?25h[?25l[24;63H2,0-1[9CAll[2;1H[?12l[?25h[?25l[24;1H[97m[41mE35: No previous regular expression[m[24;63H[K[24;63H2,0-1[9CAll[2;1H[?12l[?25h[?25l[24;1HAlready at oldest change[24;25H[K[24;63H2,0-1[9CAll[2;1H[?12l[?25h[?25l[24;63H3,4  [3;4H[?12l[?25h[?25l[1m[96mech[m= [?12l[?25h[?25l[24;65H25[3;25H[?12l[?25h[?25l[24;1H[1m-- REPLACE --[m[24;14H[K[24;63H3,25[10CAll[3;25H[95mANDOM
+let [m[93m"[mnumber [93m%=[m [38;5;81m$RANGE[m[93m"[m[4;23H[K[5;1H[95mecho [m[93m"[mRandom number [93mless[m than [38;5;81m$RANGE[m  [38;5;224m---[m  [38;5;81m$number[m[93m"[m[5;52H[K[24;63H5,52[5;52H[?12l[?25h[?25l[5;1H[K[24;65H1 [5;1H[?12l[?25h[?25l[94m~                                                                               [m[24;63H4,23[4;23H[?12l[?25h[?25l[4;1H[K[24;65H1 [4;1H[?12l[?25h[?25l[94m~                                                                               [m[24;63H3,30[3;30H[?12l[?25h[?25l[93m"[m[3;26H[K[24;65H25[3;25H[?12l[?25h[?25l[95mo[m[24;65H1 [3;1H[?12l[?25h[?25l[24;63H2[2;1H[?12l[?25h[?25l[24;63H1,12[1;12H[?12l[?25h[?25l[24;66H [1;1H[?12l[?25h[?25l[24;63H2[2;1H[?12l[?25h[?25l[24;63H3[3;1H[?12l[?25h[?25l[24;63H2[2;1H[?12l[?25h[?25l[24;63H3[3;1H[?12l[?25h[?25l[24;65H2[3;2H[?12l[?25h[?25l[24;65H3[3;3H[?12l[?25h[?25l[1m[96mi[m=[24;65H4[3;4H[?12l[?25h[?25l[1m[96mh[m=[24;65H3[3;3H[?12l[?25h[?25l[1m[96mo[m=[24;65H4[3;4H[?12l[?25h[?25l[1m[96mh[m=[24;65H3[3;3H[?12l[?25h[?25l[24;65H2[3;2H[?12l[?25h[?25l[24;65H1[3;1H[?12l[?25h[?25l[24;4H[1mINSERTE -[m[24;13H[K[24;63H3,1[11CAll[3;1H[?12l[?25h[?25l[1C[1m[96mech[m= [93m"[m[95mFor goodness sakeo[m[93m"[m[24;65H2[3;2H[?12l[?25h[?25l[1m[96mcech[m= [93m"[m[95mFor goodness sakeo[m[93m"[m[24;65H3[3;3H[?12l[?25h[?25l[1m[96mhech[m= [93m"[m[95mFor goodness sakeo[m[93m"[m[24;65H4[3;4H[?12l[?25h[?25l[1m[96moech[m= [93m"[m[95mFor goodness sakeo[m[93m"[m[24;65H5[3;5H[?12l[?25h[?25l[1m[96mch[m= [93m"[m[95mFor goodness sakeo[m[93m"[m[3;29H[K[3;5H[?12l[?25h[?25l[1m[96mh[m= [93m"[m[95mFor goodness sakeo[m[93m"[m[3;28H[K[3;5H[?12l[?25h[?25l= [93m"[m[95mFor goodness sakeo[m[93m"[m[3;27H[K[3;5H[?12l[?25h[?25l[24;65H6[3;6H[?12l[?25h[?25l[24;65H7[3;7H[?12l[?25h[?25l[93m"[m[95mFor goodness sakeo[m[93m"[m[3;26H[K[24;65H6[3;6H[?12l[?25h[?25l[24;65H7[3;7H[?12l[?25h[?25l[24;65H8[3;8H[?12l[?25h[?25l[24;65H9[3;9H[?12l[?25h[?25l[24;65H10[3;10H[?12l[?25h[?25l[24;66H1[3;11H[?12l[?25h[?25l[24;66H2[3;12H[?12l[?25h[?25l[24;66H3[3;13H[?12l[?25h[?25l[24;66H4[3;14H[?12l[?25h[?25l[24;66H5[3;15H[?12l[?25h[?25l[24;66H6[3;16H[?12l[?25h[?25l[24;66H7[3;17H[?12l[?25h[?25l[24;66H8[3;18H[?12l[?25h[?25l[24;66H9[3;19H[?12l[?25h[?25l[24;65H20[3;20H[?12l[?25h[?25l[24;66H1[3;21H[?12l[?25h[?25l[24;66H2[3;22H[?12l[?25h[?25l[24;66H3[3;23H[?12l[?25h[?25l[24;66H4[3;24H[?12l[?25h[?25l[24;66H5[3;25H[?12l[?25h[?25l[24;66H6[3;26H[?12l[?25h[?25l[24;66H5[3;25H[?12l[?25h[?25l[24;66H4[3;24H[?12l[?25h[?25l[24;66H5[3;25H[?12l[?25h[?25l[93m"[m[3;25H[K[24;66H4[3;24H[?12l[?25h[?25l[24;66H5[3;25H[?12l[?25h[?25l[4;1H[K[24;63H4,1 [4;1H[?12l[?25h[?25l[5;1H[K[24;63H5[5;1H[?12l[?25h[?25l[6;1H[K[24;63H6[6;1H[?12l[?25h[?25l[24;63H5[5;1H[?12l[?25h[?25l[6;23r[6;1H[2L[1;24r[5;1H[1m[96mnumber[m=[38;5;81m$RANDOM[m
+[93mlet[m [93m"[m[95mnumber %= [m[38;5;81m$RANGE[m[93m"
+echo[m[95m [m[93m"[m[95mRandom number less than [m[38;5;81m$RANGE[m[95m  ---  [m[38;5;81m$number[m[93m"[m[24;63H[K[24;63H7,52[10CAll[7;52H[?12l[?25h[?25l[24;63H6,23[6;23H[?12l[?25h[?25l[24;63H5,15[5;15H[?12l[?25h[?25l[6;23r[6;1H[L[1;24r[24;63H[K[24;63H6,1[11CAll[6;1H[?12l[?25h[?25lR[24;65H2[6;2H[?12l[?25h[?25la[24;65H3[6;3H[?12l[?25h[?25l[6;2H[K[24;65H2[6;2H[?12l[?25h[?25lA[24;65H3[6;3H[?12l[?25h[?25lN[24;65H4[6;4H[?12l[?25h[?25lG[24;65H5[6;5H[?12l[?25h[?25lE[24;65H6[6;6H[?12l[?25h[?25l[24;65H7[6;7H[?12l[?25h[?25l[93m=[m[24;65H8[6;8H[?12l[?25h[?25l[24;65H9[6;9H[?12l[?25h[?25l[95m1[m[24;65H10[6;10H[?12l[?25h[?25l[95m0[m[24;66H1[6;11H[?12l[?25h[?25l[24;66H0[6;10H[?12l[?25h[?25l[24;65H9 [6;9H[?12l[?25h[?25l[95m10[m[6;10H[K[24;65H8[6;8H[?12l[?25h[?25l[24;65H7[6;7H[?12l[?25h[?25l[1m[96mRANGE[m=[95m10[m[6;9H[K[24;65H6[6;6H[?12l[?25h[?25l[24;65H7[6;7H[?12l[?25h[?25l[24;65H8[6;8H[?12l[?25h[?25l[24;65H9[6;9H[?12l[?25h[24;1H[K[6;8H[?25l[24;63H6,8[11CAll[6;8H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"curse" 9L, 139C written
+[?1l>[?12l[?25h[?1049l]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ curse
+Random number less than 10  ---  2
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ curse
+Random number less than 10  ---  4
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ curse
+Random number less than 10  ---  0
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ curse
+Random number less than 10  ---  2
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ curse
+Random number less than 10  ---  3
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ cursesudo vi cursels[Kbin[1Plssudo vi curse
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;24r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[24;1H"curse" 9L, 139C[>c[27m[23m[m[H[2J[1;1H[96m#!/bin/bash[m
+
+[1m[96mecho[m=[93m"[m[95mFor goodness sake[m[93m"[m
+
+[1m[96mnumber[m=[38;5;81m$RANDOM[m
+[1m[96mRANGE[m=[95m10[m
+[93mlet[m [93m"[m[95mnumber %= [m[38;5;81m$RANGE[m[93m"
+echo[m[95m [m[93m"[m[95mRandom number less than [m[38;5;81m$RANGE[m[95m  ---  [m[38;5;81m$number[m[93m"[m
+
+[94m~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll"curse" 9L, 139C[46C   [11C   [1;1H[?12l[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?25l[24;63H2,0-1[9CAll[2;1H[?12l[?25h[?25l[24;63H3,1  [3;1H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H3,1[11CAll[3;1H[?12l[?25h[?25l[24;65H2[3;2H[?12l[?25h[?25l[24;65H3[3;3H[?12l[?25h[?25l[24;65H4[3;4H[?12l[?25h[?25l[24;65H5[3;5H[?12l[?25h[?25l[24;65H6[3;6H[?12l[?25h[?25l[24;65H7[3;7H[?12l[?25h[?25l[24;65H8[3;8H[?12l[?25h[?25l[24;65H9[3;9H[?12l[?25h[?25l[24;65H10[3;10H[?12l[?25h[?25l[24;66H1[3;11H[?12l[?25h[?25l[24;66H2[3;12H[?12l[?25h[?25l[24;66H3[3;13H[?12l[?25h[?25l[24;66H4[3;14H[?12l[?25h[?25l[24;66H5[3;15H[?12l[?25h[?25l[24;66H6[3;16H[?12l[?25h[?25l[24;66H7[3;17H[?12l[?25h[?25l[24;66H8[3;18H[?12l[?25h[?25l[24;66H9[3;19H[?12l[?25h[?25l[24;65H20[3;20H[?12l[?25h[?25l[24;66H1[3;21H[?12l[?25h[?25l[24;66H2[3;22H[?12l[?25h[?25l[24;66H3[3;23H[?12l[?25h[?25l[24;66H4[3;24H[?12l[?25h[?25l[24;66H5[3;25H[?12l[?25h[?25l[3;24H[K[5;1H[95mnumber=
+RANGE=
+let [m[1Cnumber [93m%=[m 
+[95mecho[m[2CRandom number [93mless[m than [6C  [38;5;224m---[m  [24;66H4[3;24H[?12l[?25h[?25l[3;23H[K[24;66H3[3;23H[?12l[?25h[?25l[3;22H[K[24;66H2[3;22H[?12l[?25h[?25l[3;21H[K[24;66H1[3;21H[?12l[?25h[?25l[3;20H[K[24;66H0[3;20H[?12l[?25h[?25l[3;19H[K[24;65H19[3;19H[?12l[?25h[?25l[3;18H[K[24;66H8[3;18H[?12l[?25h[?25l[3;17H[K[24;66H7[3;17H[?12l[?25h[?25l[3;16H[K[24;66H6[3;16H[?12l[?25h[?25l[3;15H[K[24;66H5[3;15H[?12l[?25h[?25l[3;14H[K[24;66H4[3;14H[?12l[?25h[?25l[3;13H[K[24;66H3[3;13H[?12l[?25h[?25l[3;12H[K[24;66H2[3;12H[?12l[?25h[?25l[3;11H[K[24;66H1[3;11H[?12l[?25h[?25l[3;10H[K[24;66H0[3;10H[?12l[?25h[?25l[3;9H[K[24;65H9 [3;9H[?12l[?25h[?25l[3;8H[K[24;65H8[3;8H[?12l[?25h[?25l[3;7H[K[24;65H7[3;7H[?12l[?25h[?25l[3;6H[K[5;1H[1m[96mnumber[m=
+[1m[96mRANGE[m=
+[93mlet[m [1C[95mnumber %= [m
+[93mecho[m[2C[95mRandom number less than [6C  ---  [m[24;65H6[3;6H[?12l[?25h[?25l[93mecho[m[3;5H[K[24;65H5[3;5H[?12l[?25h[?25lech[3;4H[K[24;65H4[3;4H[?12l[?25h[?25l[3;3H[K[24;65H3[3;3H[?12l[?25h[?25l[3;2H[K[24;65H2[3;2H[?12l[?25h[?25l[3;1H[K[24;65H1[3;1H[?12l[?25h[?25l[2;23r[23;1H
+[1;24r[23;1H[94m~                                                                               [m[24;63H[K[24;63H2,1[11CAll[2;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[1;1H[96m#!/bin/bash[m[23;1H[94m~                                                                               [m[24;63H[K[24;63H1,12[10CAll[1;12H[?12l[?25h[?25l[24;63H2,1 [2;1H[?12l[?25h[?25l[24;63H3,12[3;12H[?12l[?25h[?25l[24;63H4,9 [4;9H[?12l[?25h[?25l[24;63H5,12[5;12H[?12l[?25h[?25l[24;63H6[6;12H[?12l[?25h[?25l[24;63H7,1 [7;1H[?12l[?25h[?25le[24;65H2[7;2H[?12l[?25h[?25lc[24;65H3[7;3H[?12l[?25h[?25lh[24;65H4[7;4H[?12l[?25h[?25l[93mecho[m[24;65H5[7;5H[?12l[?25h[?25l[95m [m[24;65H6[7;6H[?12l[?25h[?25l[93m"[m[24;65H7[7;7H[?12l[?25h[?25l[95mf[m[24;65H8[7;8H[?12l[?25h[?25l[95mo[m[24;65H9[7;9H[?12l[?25h[?25l[95mr[m[24;65H10[7;10H[?12l[?25h[?25l[7;9H[K[24;65H9 [7;9H[?12l[?25h[?25l[7;8H[K[24;65H8[7;8H[?12l[?25h[?25l[7;7H[K[24;65H7[7;7H[?12l[?25h[?25l[7;6H[K[24;65H6[7;6H[?12l[?25h[?25l[93m"[m[24;65H7[7;7H[?12l[?25h[?25l[95mf[m[24;65H8[7;8H[?12l[?25h[?25l[95mo[m[24;65H9[7;9H[?12l[?25h[?25l[95mr[m[24;65H10[7;10H[?12l[?25h[?25l[7;9H[K[24;65H9 [7;9H[?12l[?25h[?25l[7;8H[K[24;65H8[7;8H[?12l[?25h[?25l[7;7H[K[24;65H7[7;7H[?12l[?25h[?25l[95mF[m[24;65H8[7;8H[?12l[?25h[?25l[95mo[m[24;65H9[7;9H[?12l[?25h[?25l[95mr[m[24;65H10[7;10H[?12l[?25h[?25l[95m [m[24;66H1[7;11H[?12l[?25h[?25l[95mg[m[24;66H2[7;12H[?12l[?25h[?25l[95mo[m[24;66H3[7;13H[?12l[?25h[?25l[95mo[m[24;66H4[7;14H[?12l[?25h[?25l[95md[m[24;66H5[7;15H[?12l[?25h[?25l[95mn[m[24;66H6[7;16H[?12l[?25h[?25l[95me[m[24;66H7[7;17H[?12l[?25h[?25l[95ms[m[24;66H8[7;18H[?12l[?25h[?25l[95ms[m[24;66H9[7;19H[?12l[?25h[?25l[95m [m[24;65H20[7;20H[?12l[?25h[?25l[95ms[m[24;66H1[7;21H[?12l[?25h[?25l[95ma[m[24;66H2[7;22H[?12l[?25h[?25l[95mk[m[24;66H3[7;23H[?12l[?25h[?25l[95me[m[24;66H4[7;24H[?12l[?25h[?25l[93m"[m[24;66H5[7;25H[?12l[?25h[24;1H[K[7;24H[?25l[24;63H7,24[10CAll[7;24H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"curse" 7L, 137C written
+[?1l>[?12l[?25h[?1049l]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ sudo vi curse
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;24r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[24;1H"curse" 7L, 137C[>c[27m[23m[m[H[2J[1;1H[96m#!/bin/bash[m
+
+[1m[96mnumber[m=[38;5;81m$RANDOM[m
+[1m[96mRANGE[m=[95m10[m
+[93mlet[m [93m"[m[95mnumber %= [m[38;5;81m$RANGE[m[93m"
+echo[m[95m [m[93m"[m[95mRandom number less than [m[38;5;81m$RANGE[m[95m  ---  [m[38;5;81m$number[m[93m"
+echo[m[95m [m[93m"[m[95mFor goodness sake[m[93m"[m
+[94m~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll"curse" 7L, 137C[46C   [11C   [1;1H[?12l[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?25l[24;63H2,0-1[9CAll[2;1H[?12l[?25h[?25l[24;63H3,1  [3;1H[?12l[?25h[?25l[24;63H2,0-1[2;1H[?12l[?25h[?25l[24;63H3,1  [3;1H[?12l[?25h[?25l[24;63H4[4;1H[?12l[?25h[?25l[24;63H3[3;1H[?12l[?25h[?25l[24;63H2,0-1[2;1H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H2,1[11CAll[2;1H[?12l[?25h[?25l[3;23r[3;1H[L[1;24r[24;63H[K[24;63H3,1[11CAll[3;1H[?12l[?25h[?25ld[24;65H2[3;2H[?12l[?25h[?25le[24;65H3[3;3H[?12l[?25h[?25lc[24;65H4[3;4H[?12l[?25h[?25ll[24;65H5[3;5H[?12l[?25h[?25la[24;65H6[3;6H[?12l[?25h[?25lr[24;65H7[3;7H[?12l[?25h[?25le[24;65H8[3;8H[?12l[?25h[?25l[93mdeclare[m[1m[96m [m[24;65H9[3;9H[?12l[?25h[?25l[1m[96m-[m[24;65H10[3;10H[?12l[?25h[?25l[38;5;224m-a[m[24;66H1[3;11H[?12l[?25h[?25l[1m[96m [m[24;66H2[3;12H[?12l[?25h[?25l[1m[96mc[m[24;66H3[3;13H[?12l[?25h[?25l[1m[96mu[m[24;66H4[3;14H[?12l[?25h[?25l[1m[96mr[m[24;66H5[3;15H[?12l[?25h[?25l[1m[96ms[m[24;66H6[3;16H[?12l[?25h[?25l[1m[96me[m[24;66H7[3;17H[?12l[?25h[?25l[1m[96ms[m[24;66H8[3;18H[?12l[?25h[?25l[1m[96m=[m[24;66H9[3;19H[?12l[?25h[?25l[38;5;81m([m[6;4H[38;5;224m [m[24;65H20[3;20H[?12l[?25h[?25l[93m'[m
+[95mnumber=$RANDOM
+RANGE=
+let "[10C$RANGE"
+echo "[24C$RANGE[7C$number"
+echo "[17C"[m[24;66H1[3;21H[?12l[?25h[?25l[95mH[m[24;66H2[3;22H[?12l[?25h[?25l[95me[m[24;66H3[3;23H[?12l[?25h[?25l[95ml[m[24;66H4[3;24H[?12l[?25h[?25l[95ml[m[24;66H5[3;25H[?12l[?25h[?25l[93m'[m
+[1m[96mnumber[m=[38;5;81m$RANDOM[m
+[1m[96mRANGE[m=
+[93mlet[m[38;5;224m [m[93m"[m[10C[38;5;81m$RANGE[m[93m"
+echo[1C"[m[24C[38;5;81m$RANGE[7C$number[m[93m"
+echo[1C"[17C"[m[24;66H6[3;26H[?12l[?25h[?25l[38;5;224m [m[24;66H7[3;27H[?12l[?25h[?25l[93m'[m
+[95mnumber=$RANDOM
+RANGE=
+let "[10C$RANGE"
+echo "[24C$RANGE[7C$number"
+echo "[17C"[m[24;66H8[3;28H[?12l[?25h[?25l[95mc[m[24;66H9[3;29H[?12l[?25h[?25l[95mr[m[24;65H30[3;30H[?12l[?25h[?25l[95ma[m[24;66H1[3;31H[?12l[?25h[?25l[3;30H[K[24;66H0[3;30H[?12l[?25h[?25l[3;29H[K[24;65H29[3;29H[?12l[?25h[?25l[3;28H[K[24;66H8[3;28H[?12l[?25h[?25l[95mD[m[24;66H9[3;29H[?12l[?25h[?25l[95ma[m[24;65H30[3;30H[?12l[?25h[?25l[95mm[m[24;66H1[3;31H[?12l[?25h[?25l[95mn[m[24;66H2[3;32H[?12l[?25h[?25l[95m [m[24;66H3[3;33H[?12l[?25h[?25l[3;32H[K[24;66H2[3;32H[?12l[?25h[?25l[93m'[m
+[1m[96mnumber[m=[38;5;81m$RANDOM[m
+[1m[96mRANGE[m=
+[93mlet[m[38;5;224m [m[93m"[m[10C[38;5;81m$RANGE[m[93m"
+echo[1C"[m[24C[38;5;81m$RANGE[7C$number[m[93m"
+echo[1C"[17C"[m[24;66H3[3;33H[?12l[?25h[?25l[38;5;224m [m[24;66H4[3;34H[?12l[?25h[?25l[93m'[m
+[95mnumber=$RANDOM
+RANGE=
+let "[10C$RANGE"
+echo "[24C$RANGE[7C$number"
+echo "[17C"[m[24;66H5[3;35H[?12l[?25h[?25l[95m [m[24;66H6[3;36H[?12l[?25h[?25l[95ma[m[24;66H7[3;37H[?12l[?25h[?25l[3;36H[K[24;66H6[3;36H[?12l[?25h[?25l[3;35H[K[24;66H5[3;35H[?12l[?25h[?25l[95mA[m[24;66H6[3;36H[?12l[?25h[?25l[95ms[m[24;66H7[3;37H[?12l[?25h[?25l[95ms[m[24;66H8[3;38H[?12l[?25h[?25l[93m'[m
+[1m[96mnumber[m=[38;5;81m$RANDOM[m
+[1m[96mRANGE[m=
+[93mlet[m[38;5;224m [m[93m"[m[10C[38;5;81m$RANGE[m[93m"
+echo[1C"[m[24C[38;5;81m$RANGE[7C$number[m[93m"
+echo[1C"[17C"[m[24;66H9[3;39H[?12l[?25h[?25l[38;5;81m)[m[6;4H [3;19H[38;5;81m[46m([19C)[m[24;65H40[3;40H[?12l[?25h[?25l[24;65H39[3;39H[?12l[?25h[?25l[3;19H[38;5;81m([19C)[m[24;66H8[3;38H[?12l[?25h[?25l[3;19H[38;5;81m[46m([19C)[m[24;66H9[3;39H[?12l[?25h[?25l[3;19H[38;5;81m([19C)[m[24;66H8[3;38H[?12l[?25h[?25l[24;66H7[3;37H[?12l[?25h[?25l[24;66H8[3;38H[?12l[?25h[?25l[93m'[m[38;5;81m)[m[3;39H[K[24;66H7[3;37H[?12l[?25h[?25l[93m'[m[38;5;81m)[m[3;38H[K[24;66H6[3;36H[?12l[?25h[?25l[93m'[m[38;5;81m)[m[3;37H[K[24;66H5[3;35H[?12l[?25h[?25l[95mG[m[93m'[m[38;5;81m)[m[24;66H6[3;36H[?12l[?25h[?25l[95mr[m[93m'[m[38;5;81m)[m[24;66H7[3;37H[?12l[?25h[?25l[95mr[m[93m'[m[38;5;81m)[m[24;66H8[3;38H[?12l[?25h[?25l[3;19H[38;5;81m[46m([19C)[m[24;66H9[3;39H[?12l[?25h[?25l[24;65H40[3;40H[?12l[?25h[?25l[3;19H[38;5;81m([19C)[m[24;63H4,15[4;15H[?12l[?25h[?25l[24;63H5,9 [5;9H[?12l[?25h[?25l[5;8H[K[24;65H8[5;8H[?12l[?25h[?25l[5;7H[K[24;65H7[5;7H[?12l[?25h[?25l[95m2[m[24;65H8[5;8H[?12l[?25h[?25l[24;63H6[6;8H[?12l[?25h[?25l[24;63H7[7;8H[?12l[?25h[?25l[24;63H8[8;8H[?12l[?25h[?25l[24;65H9[8;9H[?12l[?25h[?25l[24;65H10[8;10H[?12l[?25h[?25l[24;66H1[8;11H[?12l[?25h[?25l[24;66H2[8;12H[?12l[?25h[?25l[24;66H3[8;13H[?12l[?25h[?25l[24;66H4[8;14H[?12l[?25h[?25l[24;66H5[8;15H[?12l[?25h[?25l[24;66H6[8;16H[?12l[?25h[?25l[24;66H7[8;17H[?12l[?25h[?25l[24;66H8[8;18H[?12l[?25h[?25l[24;66H9[8;19H[?12l[?25h[?25l[24;65H20[8;20H[?12l[?25h[?25l[24;66H1[8;21H[?12l[?25h[?25l[24;66H2[8;22H[?12l[?25h[?25l[24;66H3[8;23H[?12l[?25h[?25l[24;66H4[8;24H[?12l[?25h[?25l[93m"[m[8;24H[K[24;66H3[8;23H[?12l[?25h[?25l[93m"[m[8;23H[K[24;66H2[8;22H[?12l[?25h[?25l[93m"[m[8;22H[K[24;66H1[8;21H[?12l[?25h[?25l[93m"[m[8;21H[K[24;66H0[8;20H[?12l[?25h[?25l[93m"[m[8;20H[K[24;65H19[8;19H[?12l[?25h[?25l[93m"[m[8;19H[K[24;66H8[8;18H[?12l[?25h[?25l[93m"[m[8;18H[K[24;66H7[8;17H[?12l[?25h[?25l[93m"[m[8;17H[K[24;66H6[8;16H[?12l[?25h[?25l[93m"[m[8;16H[K[24;66H5[8;15H[?12l[?25h[?25l[93m"[m[8;15H[K[24;66H4[8;14H[?12l[?25h[?25l[93m"[m[8;14H[K[24;66H3[8;13H[?12l[?25h[?25l[93m"[m[8;13H[K[24;66H2[8;12H[?12l[?25h[?25l[93m"[m[8;12H[K[24;66H1[8;11H[?12l[?25h[?25l[93m"[m[8;11H[K[24;66H0[8;10H[?12l[?25h[?25l[93m"[m[8;10H[K[24;65H9 [8;9H[?12l[?25h[?25l[93m"[m[8;9H[K[24;65H8[8;8H[?12l[?25h[?25l[93m"[m[8;8H[K[24;65H7[8;7H[?12l[?25h[?25l[24;65H8[8;8H[?12l[?25h[?25l[8;7H[K[24;65H7[8;7H[?12l[?25h[?25l[8;6H[K[24;65H6[8;6H[?12l[?25h[?25l[95m$[m[24;65H7[8;7H[?12l[?25h[?25l[38;5;81m${[m[24;65H8[8;8H[?12l[?25h[?25l[38;5;81mc[m[24;65H9[8;9H[?12l[?25h[?25l[38;5;81mu[m[24;65H10[8;10H[?12l[?25h[?25l[38;5;81mr[m[24;66H1[8;11H[?12l[?25h[?25l[38;5;81ms[m[24;66H2[8;12H[?12l[?25h[?25l[38;5;81me[m[24;66H3[8;13H[?12l[?25h[?25l[38;5;81ms[m[24;66H4[8;14H[?12l[?25h[?25l[38;5;81m[[m[24;66H5[8;15H[?12l[?25h[?25l$[24;66H6[8;16H[?12l[?25h[?25l[38;5;81m$n[m[24;66H7[8;17H[?12l[?25h[?25l[38;5;81mu[m[24;66H8[8;18H[?12l[?25h[?25l[38;5;81mm[m[24;66H9[8;19H[?12l[?25h[?25l[38;5;81mb[m[24;65H20[8;20H[?12l[?25h[?25l[38;5;81me[m[24;66H1[8;21H[?12l[?25h[?25l[38;5;81mr[m[24;66H2[8;22H[?12l[?25h[?25l[38;5;81m][m[8;14H[38;5;81m[46m[[7C][m[24;66H3[8;23H[?12l[?25h[?25l[38;5;81m}[m[8;7H[38;5;81m[46m{[m[6C[38;5;81m[[7C][m[38;5;81m[46m}[m[24;66H4[8;24H[?12l[?25h[24;1H[K[8;23H[?25l[24;63H8,23[10CAll[8;23H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"curse" 8L, 175C written
+[?1l>[?12l[?25h[?1049l]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ curse
+Random number less than 2  ---  1
+Damn
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ curse
+Random number less than 2  ---  1
+Damn
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ curse
+Random number less than 2  ---  0
+Hell
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ curse
+Random number less than 2  ---  1
+Damn
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ curse
+Random number less than 2  ---  1
+Damn
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ curse
+Random number less than 2  ---  0
+Hell
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ curse
+Random number less than 2  ---  1
+Damn
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ curse
+Random number less than 2  ---  1
+Damn
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ curse
+Random number less than 2  ---  0
+Hell
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ cursesudo vi curse[8Pcursesudo vi curse
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;24r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[24;1H"curse" 8L, 175C[>c[27m[23m[m[H[2J[1;1H[96m#!/bin/bash[m
+
+[93mdeclare[m[1m[96m [m[38;5;224m-a[m[1m[96m curses=[m[38;5;81m([m[93m'[m[95mHell[m[93m'[m[38;5;224m [m[93m'[m[95mDamn[m[93m'[m[38;5;224m [m[93m'[m[95mGrr[m[93m'[m[38;5;81m)[m
+[1m[96mnumber[m=[38;5;81m$RANDOM[m
+[1m[96mRANGE[m=[95m2[m
+[93mlet[m [93m"[m[95mnumber %= [m[38;5;81m$RANGE[m[93m"
+echo[m[95m [m[93m"[m[95mRandom number less than [m[38;5;81m$RANGE[m[95m  ---  [m[38;5;81m$number[m[93m"
+echo[m[95m [m[38;5;81m${curses[$number]}[m
+[94m~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll"curse" 8L, 175C[46C   [11C   [1;1HP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12l[?25h[?25l[24;63H2,0-1[9CAll[2;1H[?12l[?25h[?25l[24;63H3,1  [3;1H[?12l[?25h[?25l[24;63H4[4;1H[?12l[?25h[?25l[24;63H5[5;1H[?12l[?25h[?25l[24;65H2[5;2H[?12l[?25h[?25l[24;65H3[5;3H[?12l[?25h[?25l[24;65H4[5;4H[?12l[?25h[?25l[24;65H5[5;5H[?12l[?25h[?25l[24;65H6[5;6H[?12l[?25h[?25l[24;65H7[5;7H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H5,7[11CAll[5;7H[?12l[?25h[?25l[24;65H8[5;8H[?12l[?25h[?25l[5;7H[K[24;65H7[5;7H[?12l[?25h[?25l[95m3[m[24;65H8[5;8H[?12l[?25h[?25l[24;63H4[4;8H[?12l[?25h[?25l[24;63H3[3;8H[?12l[?25h[?25l[24;65H9[3;9H[?12l[?25h[?25l[24;65H10[3;10H[?12l[?25h[?25l[24;66H1[3;11H[?12l[?25h[?25l[24;66H2[3;12H[?12l[?25h[?25l[24;66H3[3;13H[?12l[?25h[?25l[24;66H4[3;14H[?12l[?25h[?25l[24;66H5[3;15H[?12l[?25h[?25l[24;66H6[3;16H[?12l[?25h[?25l[24;66H7[3;17H[?12l[?25h[?25l[24;66H8[3;18H[?12l[?25h[?25l[1C[38;5;81m[46m([19C)[m[24;66H9[3;19H[?12l[?25h[?25l[24;65H20[3;20H[?12l[?25h[?25l[38;5;81m([19C)[m[24;66H1[3;21H[?12l[?25h[?25l[24;66H2[3;22H[?12l[?25h[?25l[24;66H3[3;23H[?12l[?25h[?25l[24;66H4[3;24H[?12l[?25h[?25l[24;66H5[3;25H[?12l[?25h[?25l[24;66H6[3;26H[?12l[?25h[?25l[24;66H7[3;27H[?12l[?25h[?25l[24;66H8[3;28H[?12l[?25h[?25l[24;66H9[3;29H[?12l[?25h[?25l[24;65H30[3;30H[?12l[?25h[?25l[24;66H1[3;31H[?12l[?25h[?25l[24;66H2[3;32H[?12l[?25h[?25l[24;66H3[3;33H[?12l[?25h[?25l[24;66H4[3;34H[?12l[?25h[?25l[24;66H5[3;35H[?12l[?25h[?25l[24;66H6[3;36H[?12l[?25h[?25l[24;66H7[3;37H[?12l[?25h[?25l[24;66H8[3;38H[?12l[?25h[?25l[95m [m[93m'[m[38;5;81m)[m[24;66H9[3;39H[?12l[?25h[?25l[93m'[m[38;5;81m)[m[3;40H[K[24;66H8[3;38H[?12l[?25h[?25l[3;19H[38;5;81m[46m([19C)[m[24;66H9[3;39H[?12l[?25h[?25l[38;5;224m[46m [m[38;5;81m)[m[38;5;224m [m[38;5;81m[46m)[m[24;65H40[3;40H[?12l[?25h[?25l[93m[46m'[m[95m)
+number=$RANDOM
+RANGE=
+let "[10C$RANGE"
+echo "[24C$RANGE[7C$number"
+echo ${curses[$number]}[m[3;40H[93m'[m[95m[46m)[m[24;66H1[3;41H[?12l[?25h[?25l[95m[46m [m[95m) [m[95m[46m)[m[24;66H2[3;42H[?12l[?25h[?25l[95m)[m[46m [m[95m[46m)[m[3;42H[K[24;66H1[3;41H[?12l[?25h[?25l[95m[46mF[m[95m)F[m[95m[46m)[m[24;66H2[3;42H[?12l[?25h[?25l[95m[46mo[m[95m)o[m[95m[46m)[m[24;66H3[3;43H[?12l[?25h[?25l[95m[46mr[m[95m)r[m[95m[46m)[m[24;66H4[3;44H[?12l[?25h[?25l[95m[46m [m[95m) [m[95m[46m)[m[24;66H5[3;45H[?12l[?25h[?25l[95m[46mg[m[95m)g[m[95m[46m)[m[24;66H6[3;46H[?12l[?25h[?25l[95m[46mo[m[95m)o[m[95m[46m)[m[24;66H7[3;47H[?12l[?25h[?25l[95m[46mo[m[95m)o[m[95m[46m)[m[24;66H8[3;48H[?12l[?25h[?25l[95m[46md[m[95m)d[m[95m[46m)[m[24;66H9[3;49H[?12l[?25h[?25l[95m[46mn[m[95m)n[m[95m[46m)[m[24;65H50[3;50H[?12l[?25h[?25l[95m[46me[m[95m)e[m[95m[46m)[m[24;66H1[3;51H[?12l[?25h[?25l[95m[46ms[m[95m)s[m[95m[46m)[m[24;66H2[3;52H[?12l[?25h[?25l[95m[46ms[m[95m)s[m[95m[46m)[m[24;66H3[3;53H[?12l[?25h[?25l[95m[46m [m[95m) [m[95m[46m)[m[24;66H4[3;54H[?12l[?25h[?25l[95m[46ms[m[95m)s[m[95m[46m)[m[24;66H5[3;55H[?12l[?25h[?25l[95m[46ma[m[95m)a[m[95m[46m)[m[24;66H6[3;56H[?12l[?25h[?25l[95m[46mk[m[95m)k[m[95m[46m)[m[24;66H7[3;57H[?12l[?25h[?25l[95m[46me[m[95m)e[m[95m[46m)[m[24;66H8[3;58H[?12l[?25h[?25l[95m[46m![m[95m)![m[95m[46m)[m[24;66H9[3;59H[?12l[?25h[?25l[93m[46m'[m[38;5;81m)[m
+[1m[96mnumber[m=[38;5;81m$RANDOM[m
+[1m[96mRANGE[m=
+[93mlet[m [93m"[m[10C[38;5;81m$RANGE[m[93m"
+echo[1C"[m[24C[38;5;81m$RANGE[7C$number[m[93m"
+echo[m[1C[38;5;81m${curses[$number]}[m[3;59H[93m'[m[38;5;81m[46m)[m[24;65H60[3;60H[?12l[?25h[?25l[3;19H[38;5;81m([40C)[m[24;63H4,15[4;15H[?12l[?25h[?25l[24;63H5,8 [5;8H[?12l[?25h[?25l[5;7H[K[24;65H7[5;7H[?12l[?25h[?25l[95m5[m[24;65H8[5;8H[?12l[?25h[?25l[24;63H6[6;8H[?12l[?25h[?25l[24;63H7[7;8H[?12l[?25h[?25l[8;7H[38;5;81m[46m{[15C}[m[24;63H8[8;8H[?12l[?25h[24;1H[K[8;7H[?25l[24;63H8,7[11CAll[8;7H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"curse" 8L, 196C written
+[?1l>[?12l[?25h[?1049l]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ sudo vi curse[8Pcurse
+Random number less than 5  ---  2
+Grr
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ curse
+Random number less than 5  ---  3
+For goodness sake!
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ curse
+Random number less than 5  ---  1
+Damn
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ curse
+Random number less than 5  ---  4
+
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ curse
+Random number less than 5  ---  4
+
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ curse
+Random number less than 5  ---  1
+Damn
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ curse
+Random number less than 5  ---  2
+Grr
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ curse
+Random number less than 5  ---  4
+
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ curse
+Random number less than 5  ---  2
+Grr
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ curse
+Random number less than 5  ---  2
+Grr
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ curse
+Random number less than 5  ---  4
+
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ cursesudo vi curse
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;24r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[24;1H"curse" 8L, 196C[>c[27m[23m[m[H[2J[1;1H[96m#!/bin/bash[m
+
+[93mdeclare[m[1m[96m [m[38;5;224m-a[m[1m[96m curses=[m[38;5;81m([m[93m'[m[95mHell[m[93m'[m[38;5;224m [m[93m'[m[95mDamn[m[93m'[m[38;5;224m [m[93m'[m[95mGrr[m[93m'[m[38;5;224m [m[93m'[m[95mFor goodness sake![m[93m'[m[38;5;81m)[m
+[1m[96mnumber[m=[38;5;81m$RANDOM[m
+[1m[96mRANGE[m=[95m5[m
+[93mlet[m [93m"[m[95mnumber %= [m[38;5;81m$RANGE[m[93m"
+echo[m[95m [m[93m"[m[95mRandom number less than [m[38;5;81m$RANGE[m[95m  ---  [m[38;5;81m$number[m[93m"
+echo[m[95m [m[38;5;81m${curses[$number]}[m
+[94m~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll"curse" 8L, 196C[46C   [11C   [1;1HP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12l[?25h[?25l[24;63H2,0-1[9CAll[2;1H[?12l[?25h[?25l[24;63H3,1  [3;1H[?12l[?25h[?25l[24;63H4[4;1H[?12l[?25h[?25l[24;63H5[5;1H[?12l[?25h[?25l[24;63H6[6;1H[?12l[?25h[?25l[24;63H5[5;1H[?12l[?25h[?25l[24;65H2[5;2H[?12l[?25h[?25l[24;65H3[5;3H[?12l[?25h[?25l[24;65H4[5;4H[?12l[?25h[?25l[24;65H5[5;5H[?12l[?25h[?25l[24;65H6[5;6H[?12l[?25h[?25l[24;65H7[5;7H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H5,7[11CAll[5;7H[?12l[?25h[?25lRANGE[95m5[m[5;7H[K[24;65H6[5;6H[?12l[?25h[?25l[1m[96mRANGE[m=[95m5[m[24;65H7[5;7H[?12l[?25h[?25l[24;65H8[5;8H[?12l[?25h[?25l[5;7H[K[24;65H7[5;7H[?12l[?25h[?25l[95m4[m[24;65H8[5;8H[?12l[?25h[24;1H[K[5;7H[?25l[24;63H5,7[11CAll[5;7H[?12l[?25h[?25l[24;63H6,1[6;1H[?12l[?25h[?25l[24;63H[K[24;1H:[1;1H[93mdeclare[m[1m[96m [m[38;5;224m-a[m[1m[96m curses=[m[38;5;81m([m[93m'[m[95mHell[m[93m'[m[38;5;224m [m[93m'[m[95mDamn[m[93m'[m[38;5;224m [m[93m'[m[95mGrr[m[93m'[m[38;5;224m [m[93m'[m[95mFor goodness sake![m[93m'[m[38;5;81m)[m
+[1m[96mnumber[m=[38;5;81m$RANDOM[m
+[1m[96mRANGE[m=[95m4[m[3;8H[K[4;1H[93mlet[m [93m"[m[95mnumber %= [m[38;5;81m$RANGE[m[93m"
+echo[m[95m [m[93m"[m[95mRandom number less than [m[38;5;81m$RANGE[m[95m  ---  [m[38;5;81m$number[m[93m"
+echo[m[95m [m[38;5;81m${curses[$number]}[m
+[94m~                                                                               [8;1H~                                                                               [m[15;1H[7mcurse [+]                                                     6,1            Bot[m[16;1H[94m:[m[93mw[m[16;3H[K[17;1H[94m:[m[93mwq[m![17;5H[K[18;1H[94m:[m[93mq[m[18;3H[K[19;1H[94m:[m[93mq[m![19;4H[K[20;1H[94m:[m[93mwq[m[20;4H[K[21;1H[94m:[m[21;2H[K[22;1H[94m:~[m
+[1m[7m[Command Line]                                                6,0-1          All[21;2H[?12l[?25h[?25l[m[24;1H[K[24;1H:[?12l[?25hq[?25l[?12l[?25h[?25l[1;1H[96m#!/bin/bash[m[1;12H[K[2;1H[K[3;1H[93mdeclare[m[1m[96m [m[38;5;224m-a[m[1m[96m curses=[m[38;5;81m([m[93m'[m[95mHell[m[93m'[m[38;5;224m [m[93m'[m[95mDamn[m[93m'[m[38;5;224m [m[93m'[m[95mGrr[m[93m'[m[38;5;224m [m[93m'[m[95mFor goodness sake![m[93m'[m[38;5;81m)[m
+[1m[96mnumber[m=[38;5;81m$RANDOM[m[4;15H[K[5;1H[1m[96mRANGE[m=[95m4[m[5;8H[K[6;1H[93mlet[m [93m"[m[95mnumber %= [m[38;5;81m$RANGE[m[93m"[m[6;23H[K[7;1H[93mecho[m[95m [m[93m"[m[95mRandom number less than [m[38;5;81m$RANGE[m[95m  ---  [m[38;5;81m$number[m[93m"[m[7;52H[K[8;1H[93mecho[m[95m [m[38;5;81m${curses[$number]}[m[8;24H[K[15;1H[94m~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~  
+~                                                                               [m[24;63H6,1[11CAll[6;1H[?12l[?25h[?25l[24;1H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"curse" 8L, 196C written
+[?1l>[?12l[?25h[?1049l]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ ..
+cd ..
+]0;michael@michael-virtual-machine: /[01;32mmichael@michael-virtual-machine[00m:[01;34m/[00m$ ..
+cd ..
+]0;michael@michael-virtual-machine: /[01;32mmichael@michael-virtual-machine[00m:[01;34m/[00m$ ..
+cd ..
+]0;michael@michael-virtual-machine: /[01;32mmichael@michael-virtual-machine[00m:[01;34m/[00m$ /home
+cd /home
+]0;michael@michael-virtual-machine: /home[01;32mmichael@michael-virtual-machine[00m:[01;34m/home[00m$ michael/
+cd michael/
+]0;michael@michael-virtual-machine: ~[01;32mmichael@michael-virtual-machine[00m:[01;34m~[00m$ Docku[K[Kuments/
+cd Documents/
+]0;michael@michael-virtual-machine: ~/Documents[01;32mmichael@michael-virtual-machine[00m:[01;34m~/Documents[00m$ curse
+Random number less than 4  ---  2
+Grr
+]0;michael@michael-virtual-machine: ~/Documents[01;32mmichael@michael-virtual-machine[00m:[01;34m~/Documents[00m$ curseDocuments/[5Pcurse
+Random number less than 4  ---  3
+For goodness sake!
+]0;michael@michael-virtual-machine: ~/Documents[01;32mmichael@michael-virtual-machine[00m:[01;34m~/Documents[00m$ curse
+Random number less than 4  ---  1
+Damn
+]0;michael@michael-virtual-machine: ~/Documents[01;32mmichael@michael-virtual-machine[00m:[01;34m~/Documents[00m$ curse
+Random number less than 4  ---  1
+Damn
+]0;michael@michael-virtual-machine: ~/Documents[01;32mmichael@michael-virtual-machine[00m:[01;34m~/Documents[00m$ curse
+Random number less than 4  ---  1
+Damn
+]0;michael@michael-virtual-machine: ~/Documents[01;32mmichael@michael-virtual-machine[00m:[01;34m~/Documents[00m$ curse
+Random number less than 4  ---  2
+Grr
+]0;michael@michael-virtual-machine: ~/Documents[01;32mmichael@michael-virtual-machine[00m:[01;34m~/Documents[00m$ curse
+Random number less than 4  ---  0
+Hell
+]0;michael@michael-virtual-machine: ~/Documents[01;32mmichael@michael-virtual-machine[00m:[01;34m~/Documents[00m$ curse
+Random number less than 4  ---  0
+Hell
+]0;michael@michael-virtual-machine: ~/Documents[01;32mmichael@michael-virtual-machine[00m:[01;34m~/Documents[00m$ curse
+Random number less than 4  ---  1
+Damn
+]0;michael@michael-virtual-machine: ~/Documents[01;32mmichael@michael-virtual-machine[00m:[01;34m~/Documents[00m$ curse
+Random number less than 4  ---  0
+Hell
+]0;michael@michael-virtual-machine: ~/Documents[01;32mmichael@michael-virtual-machine[00m:[01;34m~/Documents[00m$ curse
+Random number less than 4  ---  1
+Damn
+]0;michael@michael-virtual-machine: ~/Documents[01;32mmichael@michael-virtual-machine[00m:[01;34m~/Documents[00m$ curse
+Random number less than 4  ---  0
+Hell
+]0;michael@michael-virtual-machine: ~/Documents[01;32mmichael@michael-virtual-machine[00m:[01;34m~/Documents[00m$ curse
+Random number less than 4  ---  0
+Hell
+]0;michael@michael-virtual-machine: ~/Documents[01;32mmichael@michael-virtual-machine[00m:[01;34m~/Documents[00m$ curse
+Random number less than 4  ---  1
+Damn
+]0;michael@michael-virtual-machine: ~/Documents[01;32mmichael@michael-virtual-machine[00m:[01;34m~/Documents[00m$ curse
+Random number less than 4  ---  3
+For goodness sake!
+]0;michael@michael-virtual-machine: ~/Documents[01;32mmichael@michael-virtual-machine[00m:[01;34m~/Documents[00m$ cleaer
+No command 'cleaer' found, did you mean:
+ Command 'clear' from package 'ncurses-bin' (main)
+cleaer: command not found
+]0;michael@michael-virtual-machine: ~/Documents[01;32mmichael@michael-virtual-machine[00m:[01;34m~/Documents[00m$ clae[K[Kear
+[3;J[H[2J]0;michael@michael-virtual-machine: ~/Documents[01;32mmichael@michael-virtual-machine[00m:[01;34m~/Documents[00m$ ..
+cd ..
+]0;michael@michael-virtual-machine: ~[01;32mmichael@michael-virtual-machine[00m:[01;34m~[00m$ ..
+cd ..
+]0;michael@michael-virtual-machine: /home[01;32mmichael@michael-virtual-machine[00m:[01;34m/home[00m$ .
+bash: .: filename argument required
+.: usage: . filename [arguments]
+]0;michael@michael-virtual-machine: /home[01;32mmichael@michael-virtual-machine[00m:[01;34m/home[00m$ ..
+cd ..
+]0;michael@michael-virtual-machine: /[01;32mmichael@michael-virtual-machine[00m:[01;34m/[00m$ bii[Kn
+cd bin
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ v[Ksudo vi curse
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;24r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[24;1H"curse" 8L, 196C[>c[27m[23m[m[H[2J[1;1H[96m#!/bin/bash[m
+
+[93mdeclare[m[1m[96m [m[38;5;224m-a[m[1m[96m curses=[m[38;5;81m([m[93m'[m[95mHell[m[93m'[m[38;5;224m [m[93m'[m[95mDamn[m[93m'[m[38;5;224m [m[93m'[m[95mGrr[m[93m'[m[38;5;224m [m[93m'[m[95mFor goodness sake![m[93m'[m[38;5;81m)[m
+[1m[96mnumber[m=[38;5;81m$RANDOM[m
+[1m[96mRANGE[m=[95m4[m
+[93mlet[m [93m"[m[95mnumber %= [m[38;5;81m$RANGE[m[93m"
+echo[m[95m [m[93m"[m[95mRandom number less than [m[38;5;81m$RANGE[m[95m  ---  [m[38;5;81m$number[m[93m"
+echo[m[95m [m[38;5;81m${curses[$number]}[m
+[94m~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll"curse" 8L, 196C[46C   [11C   [1;1H[?12l[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H1,1[11CAll[1;1H[?12l[?25h[?25l[24;63H2[2;1H[?12l[?25h[?25l[24;63H3[3;1H[?12l[?25h[?25l[24;63H4[4;1H[?12l[?25h[?25l[24;63H5[5;1H[?12l[?25h[?25l[24;63H6[6;1H[?12l[?25h[?25l[24;63H7[7;1H[?12l[?25h[?25l[96m#echo "Random number less than $RANGE  ---  $number"[m[24;65H2[7;2H[?12l[?25h[?25l[24;63H6[6;2H[?12l[?25h[?25l[24;65H1[6;1H[?12l[?25h[?25l[24;65H2[6;2H[?12l[?25h[?25l[24;65H1[6;1H[?12l[?25h[?25l[24;63H5[5;1H[?12l[?25h[?25l[24;63H4[4;1H[?12l[?25h[?25l[24;63H5[5;1H[?12l[?25h[?25l[24;63H6[6;1H[?12l[?25h[?25l[96m#let "number %= $RANGE"[m[24;65H2[6;2H[?12l[?25h[24;1H[K[6;1H[?25l[24;63H6,1[11CAll[6;1H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"curse" 8L, 198C written
+[?1l>[?12l[?25h[?1049l]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ curse
+
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ curse
+
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ curse
+
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ curse
+
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ curse
+
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ cursesudo vi curse
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;24r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[24;1H"curse" 8L, 198C[>c[1;1H[34m#!/bin/bash[m
+
+[38;5;130mdeclare[m[36m [m[35m-a[m[36m curses=[m[35m([m[38;5;130m'[m[31mHell[m[38;5;130m'[m[35m [m[38;5;130m'[m[31mDamn[m[38;5;130m'[m[35m [m[38;5;130m'[m[31mGrr[m[38;5;130m'[m[35m [m[38;5;130m'[m[31mFor goodness sake![m[38;5;130m'[m[35m)[m
+[36mnumber[m=[35m$RANDOM[m
+[36mRANGE[m=[31m4[m
+[34m#let "number %= $RANGE"
+#echo "Random number less than $RANGE  ---  $number"[m
+[38;5;130mecho[m[31m [m[35m${curses[$number]}[m
+[94m~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll[1;1H[?12l[?25h[27m[23m[m[H[2J[?25l[1;1H[96m#!/bin/bash[m
+
+[93mdeclare[m[1m[96m [m[38;5;224m-a[m[1m[96m curses=[m[38;5;81m([m[93m'[m[95mHell[m[93m'[m[38;5;224m [m[93m'[m[95mDamn[m[93m'[m[38;5;224m [m[93m'[m[95mGrr[m[93m'[m[38;5;224m [m[93m'[m[95mFor goodness sake![m[93m'[m[38;5;81m)[m
+[1m[96mnumber[m=[38;5;81m$RANDOM[m
+[1m[96mRANGE[m=[95m4[m
+[96m#let "number %= $RANGE"
+#echo "Random number less than $RANGE  ---  $number"[m
+[93mecho[m[95m [m[38;5;81m${curses[$number]}[m
+[94m~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll"curse" 8L, 198C[1;1HP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H1,1[11CAll[1;1H[?12l[?25h[?25l[24;63H2[2;1H[?12l[?25h[?25l[24;63H3[3;1H[?12l[?25h[?25l[24;63H4[4;1H[?12l[?25h[?25l[24;63H5[5;1H[?12l[?25h[?25l[24;63H6[6;1H[?12l[?25h[?25l[24;65H2[6;2H[?12l[?25h[?25l[93mlet[m [93m"[m[95mnumber %= [m[38;5;81m$RANGE[m[93m"[m[6;23H[K[24;65H1[6;1H[?12l[?25h[24;1H[K[6;1H[?25l[24;63H6,1[11CAll[6;1H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"curse" 8L, 197C written
+[?1l>[?12l[?25h[?1049l]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ sudo vi curse[8Pcurse
+Hell
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ curse
+Hell
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ curse
+Hell
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ curse
+Grr
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ curse
+Grr
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ curse
+Grr
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ curse
+Hell
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ curse
+Grr
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ curse
+Hell
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ curse
+Hell
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ cursesudo vi curse[8Pcursesudo vi cursebin[K[1P..
+cd ..
+]0;michael@michael-virtual-machine: /[01;32mmichael@michael-virtual-machine[00m:[01;34m/[00m$ ..
+cd ..
+]0;michael@michael-virtual-machine: /[01;32mmichael@michael-virtual-machine[00m:[01;34m/[00m$ ..curse
+For goodness sake!
+]0;michael@michael-virtual-machine: /[01;32mmichael@michael-virtual-machine[00m:[01;34m/[00m$ curse
+Damn
+]0;michael@michael-virtual-machine: /[01;32mmichael@michael-virtual-machine[00m:[01;34m/[00m$ curse
+Damn
+]0;michael@michael-virtual-machine: /[01;32mmichael@michael-virtual-machine[00m:[01;34m/[00m$ curse
+Hell
+]0;michael@michael-virtual-machine: /[01;32mmichael@michael-virtual-machine[00m:[01;34m/[00m$ curse
+Damn
+]0;michael@michael-virtual-machine: /[01;32mmichael@michael-virtual-machine[00m:[01;34m/[00m$ curse
+Hell
+]0;michael@michael-virtual-machine: /[01;32mmichael@michael-virtual-machine[00m:[01;34m/[00m$ curse
+Damn
+]0;michael@michael-virtual-machine: /[01;32mmichael@michael-virtual-machine[00m:[01;34m/[00m$ curse
+Damn
+]0;michael@michael-virtual-machine: /[01;32mmichael@michael-virtual-machine[00m:[01;34m/[00m$ curse
+Grr
+]0;michael@michael-virtual-machine: /[01;32mmichael@michael-virtual-machine[00m:[01;34m/[00m$ curse
+For goodness sake!
+]0;michael@michael-virtual-machine: /[01;32mmichael@michael-virtual-machine[00m:[01;34m/[00m$ curse
+Grr
+]0;michael@michael-virtual-machine: /[01;32mmichael@michael-virtual-machine[00m:[01;34m/[00m$ curse
+Hell
+]0;michael@michael-virtual-machine: /[01;32mmichael@michael-virtual-machine[00m:[01;34m/[00m$ curse
+Grr
+]0;michael@michael-virtual-machine: /[01;32mmichael@michael-virtual-machine[00m:[01;34m/[00m$ curse
+Damn
+]0;michael@michael-virtual-machine: /[01;32mmichael@michael-virtual-machine[00m:[01;34m/[00m$ curse
+Damn
+]0;michael@michael-virtual-machine: /[01;32mmichael@michael-virtual-machine[00m:[01;34m/[00m$ curseibn
+curseibn: command not found
+]0;michael@michael-virtual-machine: /[01;32mmichael@michael-virtual-machine[00m:[01;34m/[00m$ bin
+cd bin
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ bincurseibn[K[3P..cursesudo vi curse[8Pcursesudo vi curse
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;24r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[24;1H"curse" 8L, 197C[>c[1;1H[34m#!/bin/bash[m
+
+[38;5;130mdeclare[m[36m [m[35m-a[m[36m curses=[m[35m([m[38;5;130m'[m[31mHell[m[38;5;130m'[m[35m [m[38;5;130m'[m[31mDamn[m[38;5;130m'[m[35m [m[38;5;130m'[m[31mGrr[m[38;5;130m'[m[35m [m[38;5;130m'[m[31mFor goodness sake![m[38;5;130m'[m[35m)[m
+[36mnumber[m=[35m$RANDOM[m
+[36mRANGE[m=[31m4[m
+[38;5;130mlet[m [38;5;130m"[m[31mnumber %= [m[35m$RANGE[m[38;5;130m"[m
+[34m#echo "Random number less than $RANGE  ---  $number"[m
+[38;5;130mecho[m[31m [m[35m${curses[$number]}[m
+[94m~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll[1;1H[?12l[?25h[27m[23m[m[H[2J[?25l[1;1H[96m#!/bin/bash[m
+
+[93mdeclare[m[1m[96m [m[38;5;224m-a[m[1m[96m curses=[m[38;5;81m([m[93m'[m[95mHell[m[93m'[m[38;5;224m [m[93m'[m[95mDamn[m[93m'[m[38;5;224m [m[93m'[m[95mGrr[m[93m'[m[38;5;224m [m[93m'[m[95mFor goodness sake![m[93m'[m[38;5;81m)[m
+[1m[96mnumber[m=[38;5;81m$RANDOM[m
+[1m[96mRANGE[m=[95m4[m
+[93mlet[m [93m"[m[95mnumber %= [m[38;5;81m$RANGE[m[93m"[m
+[96m#echo "Random number less than $RANGE  ---  $number"[m
+[93mecho[m[95m [m[38;5;81m${curses[$number]}[m
+[94m~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll"curse" 8L, 197C[1;1HP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12l[?25h[?25l[24;63H2,0-1[2;1H[?12l[?25h[?25l[24;63H3,1  [3;1H[?12l[?25h[?25l[24;65H2[3;2H[?12l[?25h[?25l[24;65H3[3;3H[?12l[?25h[?25l[24;65H4[3;4H[?12l[?25h[?25l[24;65H5[3;5H[?12l[?25h[?25l[24;65H6[3;6H[?12l[?25h[?25l[24;65H7[3;7H[?12l[?25h[?25l[24;65H8[3;8H[?12l[?25h[?25l[24;65H9[3;9H[?12l[?25h[?25l[24;65H10[3;10H[?12l[?25h[?25l[24;66H1[3;11H[?12l[?25h[?25l[24;66H2[3;12H[?12l[?25h[?25l[24;66H3[3;13H[?12l[?25h[?25l[24;66H4[3;14H[?12l[?25h[?25l[24;66H5[3;15H[?12l[?25h[?25l[24;66H6[3;16H[?12l[?25h[?25l[24;66H7[3;17H[?12l[?25h[?25l[24;66H8[3;18H[?12l[?25h[?25l[1C[38;5;81m[46m([40C)[m[24;66H9[3;19H[?12l[?25h[?25l[38;5;81m([40C)[m[24;65H20[3;20H[?12l[?25h[?25l[24;66H1[3;21H[?12l[?25h[?25l[24;66H2[3;22H[?12l[?25h[?25l[24;66H3[3;23H[?12l[?25h[?25l[24;66H4[3;24H[?12l[?25h[?25l[24;66H5[3;25H[?12l[?25h[?25l[24;66H6[3;26H[?12l[?25h[?25l[24;66H7[3;27H[?12l[?25h[?25l[24;66H8[3;28H[?12l[?25h[?25l[24;66H9[3;29H[?12l[?25h[?25l[24;65H30[3;30H[?12l[?25h[?25l[24;66H1[3;31H[?12l[?25h[?25l[24;66H2[3;32H[?12l[?25h[?25l[24;66H3[3;33H[?12l[?25h[?25l[24;66H4[3;34H[?12l[?25h[?25l[24;66H5[3;35H[?12l[?25h[?25l[24;66H6[3;36H[?12l[?25h[?25l[24;66H7[3;37H[?12l[?25h[?25l[24;66H8[3;38H[?12l[?25h[?25l[24;66H9[3;39H[?12l[?25h[?25l[24;65H40[3;40H[?12l[?25h[?25l[24;66H1[3;41H[?12l[?25h[?25l[24;66H2[3;42H[?12l[?25h[?25l[24;66H3[3;43H[?12l[?25h[?25l[24;66H4[3;44H[?12l[?25h[?25l[24;66H5[3;45H[?12l[?25h[?25l[24;66H6[3;46H[?12l[?25h[?25l[24;66H7[3;47H[?12l[?25h[?25l[24;66H8[3;48H[?12l[?25h[?25l[24;66H9[3;49H[?12l[?25h[?25l[24;65H50[3;50H[?12l[?25h[?25l[24;66H1[3;51H[?12l[?25h[?25l[24;66H2[3;52H[?12l[?25h[?25l[24;66H3[3;53H[?12l[?25h[?25l[24;66H4[3;54H[?12l[?25h[?25l[24;66H5[3;55H[?12l[?25h[?25l[24;66H6[3;56H[?12l[?25h[?25l[24;66H7[3;57H[?12l[?25h[?25l[24;66H8[3;58H[?12l[?25h[?25l[24;66H9[3;59H[?12l[?25h[?25l[3;19H[38;5;81m[46m([40C)[m[24;65H60[3;60H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H3,60[10CAll[3;60H[?12l[?25h[?25l[38;5;224m[46m [m[38;5;81m)[m[38;5;224m [m[38;5;81m[46m)[m[24;66H1[3;61H[?12l[?25h[?25l[93m[46m'[m[95m)
+number=$RANDOM
+RANGE=
+let "[10C$RANGE"
+#echo "Random number less than $RANGE  ---  $number"
+echo ${curses[$number]}[m[3;61H[93m'[m[95m[46m)[m[24;66H2[3;62H[?12l[?25h[?25l[95m[46mt[m[95m)t[m[95m[46m)[m[24;66H3[3;63H[?12l[?25h[?25l[95m[46mh[m[95m)h[m[95m[46m)[m[24;66H4[3;64H[?12l[?25h[?25l[95m[46mi[m[95m)i[m[95m[46m)[m[24;66H5[3;65H[?12l[?25h[?25l[95m)[m[46m [m[95m[46m)[m[3;65H[K[24;66H4[3;64H[?12l[?25h[?25l[95m)[m[46m [m[95m[46m)[m[3;64H[K[24;66H3[3;63H[?12l[?25h[?25l[95m)[m[46m [m[95m[46m)[m[3;63H[K[24;66H2[3;62H[?12l[?25h[?25l[95m[46mT[m[95m)T[m[95m[46m)[m[24;66H3[3;63H[?12l[?25h[?25l[95m[46mh[m[95m)h[m[95m[46m)[m[24;66H4[3;64H[?12l[?25h[?25l[95m[46mi[m[95m)i[m[95m[46m)[m[24;66H5[3;65H[?12l[?25h[?25l[95m[46ms[m[95m)s[m[95m[46m)[m[24;66H6[3;66H[?12l[?25h[?25l[95m[46m [m[95m) [m[95m[46m)[m[24;66H7[3;67H[?12l[?25h[?25l[95m[46mi[m[95m)i[m[95m[46m)[m[24;66H8[3;68H[?12l[?25h[?25l[95m[46ms[m[95m)s[m[95m[46m)[m[24;66H9[3;69H[?12l[?25h[?25l[95m[46m [m[95m) [m[95m[46m)[m[24;65H70[3;70H[?12l[?25h[?25l[95m[46ma[m[95m)a[m[95m[46m)[m[24;66H1[3;71H[?12l[?25h[?25l[95m[46mn[m[95m)n[m[95m[46m)[m[24;66H2[3;72H[?12l[?25h[?25l[95m[46m [m[95m) [m[95m[46m)[m[24;66H3[3;73H[?12l[?25h[?25l[95m[46mi[m[95m)i[m[95m[46m)[m[24;66H4[3;74H[?12l[?25h[?25l[95m[46mn[m[95m)n[m[95m[46m)[m[24;66H5[3;75H[?12l[?25h[?25l[95m[46mc[m[95m)c[m[95m[46m)[m[24;66H6[3;76H[?12l[?25h[?25l[95m[46mo[m[95m)o[m[95m[46m)[m[24;66H7[3;77H[?12l[?25h[?25l[95m[46mn[m[95m)n[m[95m[46m)[m[24;66H8[3;78H[?12l[?25h[?25l[95m[46mv[m[95m)v[m[95m[46m)[m[24;66H9[3;79H[?12l[?25h[?25l[95m[46me[m[95m)[3;79He[m[95m[46m)[m[24;65H80[3;80H[?12l[?25h[?25l[4;23r[4;1H[L[1;24r[3;80H[95m[46mnn[m[4;1H[95m)[m[24;63H[K[24;63H3,81[10CAll[3;80H[95mnn[m[4;1H[95m[46m)[?12l[?25h[?25li[m[95m)i[m[95m[46m)[m[24;66H2[4;2H[?12l[?25h[?25l[95m[46me[m[95m)e[m[95m[46m)[m[24;66H3[4;3H[?12l[?25h[?25l[95m[46mn[m[95m)n[m[95m[46m)[m[24;66H4[4;4H[?12l[?25h[?25l[95m[46mc[m[95m)c[m[95m[46m)[m[24;66H5[4;5H[?12l[?25h[?25l[95m[46me[m[95m)e[m[95m[46m)[m[24;66H6[4;6H[?12l[?25h[?25l[95m[46m [m[95m) [m[95m[46m)[m[24;66H7[4;7H[?12l[?25h[?25l[95m)[m[46m [m[95m[46m)[m[4;7H[K[24;66H6[4;6H[?12l[?25h[?25l[95m[46m;[m[95m);[m[95m[46m)[m[24;66H7[4;7H[?12l[?25h[?25l[95m)[m[46m [m[95m[46m)[m[4;7H[K[24;66H6[4;6H[?12l[?25h[?25l[93m[46m'[m[38;5;81m)[m
+[1m[96mnumber[m=[38;5;81m$RANDOM[m
+[1m[96mRANGE[m=
+[93mlet[m [93m"[m[10C[38;5;81m$RANGE[m[93m"[m
+[96m#echo "Random number less than $RANGE  ---  $number"[m
+[93mecho[m[1C[38;5;81m${curses[$number]}[m[4;6H[93m'[m[38;5;81m[46m)[m[24;66H7[4;7H[?12l[?25h[?25l[38;5;224m[46m [m[38;5;81m)[m[38;5;224m [m[38;5;81m[46m)[m[24;66H8[4;8H[?12l[?25h[?25l[93m[46m'[m[95m)
+number=$RANDOM
+RANGE=
+let "[10C$RANGE"
+#echo "Random number less than $RANGE  ---  $number"
+echo ${curses[$number]}[m[4;8H[93m'[m[95m[46m)[m[24;66H9[4;9H[?12l[?25h[?25l[95m[46mH[m[95m)H[m[95m[46m)[m[24;65H90[4;10H[?12l[?25h[?25l[95m[46mO[m[95m)O[m[95m[46m)[m[24;66H1[4;11H[?12l[?25h[?25l[95m[46mw[m[95m)w[m[95m[46m)[m[24;66H2[4;12H[?12l[?25h[?25l[95m[46m [m[95m) [m[95m[46m)[m[24;66H3[4;13H[?12l[?25h[?25l[95m)[m[46m [m[95m[46m)[m[4;13H[K[24;66H2[4;12H[?12l[?25h[?25l[95m)[m[46m [m[95m[46m)[m[4;12H[K[24;66H1[4;11H[?12l[?25h[?25l[95m)[m[46m [m[95m[46m)[m[4;11H[K[24;66H0[4;10H[?12l[?25h[?25l[95m[46mo[m[95m)o[m[95m[46m)[m[24;66H1[4;11H[?12l[?25h[?25l[95m[46mw[m[95m)w[m[95m[46m)[m[24;66H2[4;12H[?12l[?25h[?25l[95m[46m [m[95m) [m[95m[46m)[m[24;66H3[4;13H[?12l[?25h[?25l[95m[46ma[m[95m)a[m[95m[46m)[m[24;66H4[4;14H[?12l[?25h[?25l[95m)[m[46m [m[95m[46m)[m[4;14H[K[24;66H3[4;13H[?12l[?25h[?25l[95m[46mh[m[95m)h[m[95m[46m)[m[24;66H4[4;14H[?12l[?25h[?25l[95m[46ma[m[95m)a[m[95m[46m)[m[24;66H5[4;15H[?12l[?25h[?25l[95m[46ms[m[95m)s[m[95m[46m)[m[24;66H6[4;16H[?12l[?25h[?25l[95m[46m [m[95m) [m[95m[46m)[m[24;66H7[4;17H[?12l[?25h[?25l[95m[46mt[m[95m)t[m[95m[46m)[m[24;66H8[4;18H[?12l[?25h[?25l[95m[46mh[m[95m)h[m[95m[46m)[m[24;66H9[4;19H[?12l[?25h[?25l[95m[46mi[m[95m)i[m[95m[46m)[m[24;65H100[4;20H[?12l[?25h[?25l[95m[46ms[m[95m)s[m[95m[46m)[m[24;67H1[4;21H[?12l[?25h[?25l[95m[46m [m[95m) [m[95m[46m)[m[24;67H2[4;22H[?12l[?25h[?25l[95m[46mh[m[95m)h[m[95m[46m)[m[24;67H3[4;23H[?12l[?25h[?25l[95m[46ma[m[95m)a[m[95m[46m)[m[24;67H4[4;24H[?12l[?25h[?25l[95m[46mp[m[95m)p[m[95m[46m)[m[24;67H5[4;25H[?12l[?25h[?25l[95m[46mp[m[95m)p[m[95m[46m)[m[24;67H6[4;26H[?12l[?25h[?25l[95m[46mp[m[95m)p[m[95m[46m)[m[24;67H7[4;27H[?12l[?25h[?25l[95m[46me[m[95m)e[m[95m[46m)[m[24;67H8[4;28H[?12l[?25h[?25l[95m[46mn[m[95m)n[m[95m[46m)[m[24;67H9[4;29H[?12l[?25h[?25l[95m[46me[m[95m)e[m[95m[46m)[m[24;66H10[4;30H[?12l[?25h[?25l[95m[46md[m[95m)d[m[95m[46m)[m[24;67H1[4;31H[?12l[?25h[?25l[95m)[m[46m [m[95m[46m)[m[4;31H[K[24;67H0[4;30H[?12l[?25h[?25l[95m)[m[46m [m[95m[46m)[m[4;30H[K[24;66H09[4;29H[?12l[?25h[?25l[95m)[m[46m [m[95m[46m)[m[4;29H[K[24;67H8[4;28H[?12l[?25h[?25l[95m)[m[46m [m[95m[46m)[m[4;28H[K[24;67H7[4;27H[?12l[?25h[?25l[95m)[m[46m [m[95m[46m)[m[4;27H[K[24;67H6[4;26H[?12l[?25h[?25l[95m[46me[m[95m)e[m[95m[46m)[m[24;67H7[4;27H[?12l[?25h[?25l[95m[46mn[m[95m)n[m[95m[46m)[m[24;67H8[4;28H[?12l[?25h[?25l[95m[46me[m[95m)e[m[95m[46m)[m[24;67H9[4;29H[?12l[?25h[?25l[95m[46md[m[95m)d[m[95m[46m)[m[24;66H10[4;30H[?12l[?25h[?25l[95m[46m![m[95m)![m[95m[46m)[m[24;67H1[4;31H[?12l[?25h[?25l[3;19H[38;5;81m([m[60C[95mnn[4;1Hi[29C)[m[24;67H0[4;30H[?12l[?25h[?25l[24;66H09[4;29H[?12l[?25h[?25l[24;67H8[4;28H[?12l[?25h[?25l[24;67H7[4;27H[?12l[?25h[?25l[95mned!)[m[4;31H[K[24;67H6[4;26H[?12l[?25h[?25l[95mEned!)[m[24;67H7[4;27H[?12l[?25h[?25l[24;67H6[4;26H[?12l[?25h[?25l[24;67H5[4;25H[?12l[?25h[?25l[24;67H4[4;24H[?12l[?25h[?25l[24;67H3[4;23H[?12l[?25h[?25l[24;67H4[4;24H[?12l[?25h[?25l[95mppEned!)[m[4;31H[K[24;67H3[4;23H[?12l[?25h[?25l[95mAppEned!)[m[24;67H4[4;24H[?12l[?25h[?25l[24;67H3[4;23H[?12l[?25h[?25l[24;67H2[4;22H[?12l[?25h[?25l[24;67H1[4;21H[?12l[?25h[?25l[24;67H0[4;20H[?12l[?25h[?25l[24;65H99 [4;19H[?12l[?25h[?25l[24;66H8[4;18H[?12l[?25h[?25l[24;66H7[4;17H[?12l[?25h[?25l[24;66H6[4;16H[?12l[?25h[?25l[24;66H5[4;15H[?12l[?25h[?25l[24;66H4[4;14H[?12l[?25h[?25l[24;66H3[4;13H[?12l[?25h[?25l[24;66H2[4;12H[?12l[?25h[?25l[24;66H1[4;11H[?12l[?25h[?25l[24;66H2[4;12H[?12l[?25h[?25l[95m has this hAppEned!)[m[4;31H[K[24;66H1[4;11H[?12l[?25h[?25l[95mW has this hAppEned!)[m[24;66H2[4;12H[?12l[?25h[?25l[24;66H3[4;13H[?12l[?25h[?25l[24;66H4[4;14H[?12l[?25h[?25l[24;66H5[4;15H[?12l[?25h[?25l[95ms this hAppEned!)[m[4;31H[K[24;66H4[4;14H[?12l[?25h[?25l[95mAs this hAppEned!)[m[24;66H5[4;15H[?12l[?25h[?25l[24;66H6[4;16H[?12l[?25h[?25l[24;66H7[4;17H[?12l[?25h[?25l[24;66H8[4;18H[?12l[?25h[?25l[24;66H9[4;19H[?12l[?25h[?25l[24;65H100[4;20H[?12l[?25h[?25l[95ms hAppEned!)[m[4;31H[K[24;65H99 [4;19H[?12l[?25h[?25l[95mIs hAppEned!)[m[24;65H100[4;20H[?12l[?25h[?25l[24;65H99 [4;19H[?12l[?25h[?25l[24;66H8[4;18H[?12l[?25h[?25l[95mhIs hAppEned!)[m[4;31H[K[24;66H7[4;17H[?12l[?25h[?25l[95mThIs hAppEned!)[m[24;66H8[4;18H[?12l[?25h[?25l[24;66H9[4;19H[?12l[?25h[?25l[24;65H100[4;20H[?12l[?25h[?25l[24;67H1[4;21H[?12l[?25h[?25l[24;67H2[4;22H[?12l[?25h[?25l[24;67H3[4;23H[?12l[?25h[?25l[24;67H4[4;24H[?12l[?25h[?25l[24;67H5[4;25H[?12l[?25h[?25l[24;67H6[4;26H[?12l[?25h[?25l[24;67H7[4;27H[?12l[?25h[?25l[24;67H8[4;28H[?12l[?25h[?25l[24;67H9[4;29H[?12l[?25h[?25l[24;66H10[4;30H[?12l[?25h[?25l[95m!)[m[4;31H[K[24;66H09[4;29H[?12l[?25h[?25l[95mD!)[m[24;66H10[4;30H[?12l[?25h[?25l[95m?!)[m[24;67H1[4;31H[?12l[?25h[?25l[3;19H[38;5;81m[46m([m[60C[95mnn[4;1Hi[m[30C[95m[46m)[m[24;67H2[4;32H[?12l[?25h[?25l[95m[46m![m[95m)![m[95m[46m)[m[24;67H3[4;33H[?12l[?25h[?25l[93m[46m'[m[38;5;81m)[m
+[1m[96mnumber[m=[38;5;81m$RANDOM[m
+[1m[96mRANGE[m=
+[93mlet[m [93m"[m[10C[38;5;81m$RANGE[m[93m"[m
+[96m#echo "Random number less than $RANGE  ---  $number"[m
+[93mecho[m[1C[38;5;81m${curses[$number]}[m[4;33H[93m'[m[38;5;81m[46m)[m[24;67H4[4;34H[?12l[?25h[?25l[38;5;224m[46m [m[38;5;81m)[m[38;5;224m [m[38;5;81m[46m)[m[24;67H5[4;35H[?12l[?25h[?25l[93m[46m'[m[95m)
+number=$RANDOM
+RANGE=
+let "[10C$RANGE"
+#echo "Random number less than $RANGE  ---  $number"
+echo ${curses[$number]}[m[4;35H[93m'[m[95m[46m)[m[24;67H6[4;36H[?12l[?25h[?25l[95m[46m [m[95m) [m[95m[46m)[m[24;67H7[4;37H[?12l[?25h[?25l[95m)[m[46m [m[95m[46m)[m[4;37H[K[24;67H6[4;36H[?12l[?25h[?25l[95m[46mS[m[95m)S[m[95m[46m)[m[24;67H7[4;37H[?12l[?25h[?25l[95m[46mo[m[95m)o[m[95m[46m)[m[24;67H8[4;38H[?12l[?25h[?25l[95m[46mm[m[95m)m[m[95m[46m)[m[24;67H9[4;39H[?12l[?25h[?25l[95m[46me[m[95m)e[m[95m[46m)[m[24;66H20[4;40H[?12l[?25h[?25l[95m[46mo[m[95m)o[m[95m[46m)[m[24;67H1[4;41H[?12l[?25h[?25l[95m[46mn[m[95m)n[m[95m[46m)[m[24;67H2[4;42H[?12l[?25h[?25l[95m[46me[m[95m)e[m[95m[46m)[m[24;67H3[4;43H[?12l[?25h[?25l[95m[46m [m[95m) [m[95m[46m)[m[24;67H4[4;44H[?12l[?25h[?25l[95m[46mh[m[95m)h[m[95m[46m)[m[24;67H5[4;45H[?12l[?25h[?25l[95m[46me[m[95m)e[m[95m[46m)[m[24;67H6[4;46H[?12l[?25h[?25l[95m[46ml[m[95m)l[m[95m[46m)[m[24;67H7[4;47H[?12l[?25h[?25l[95m[46mp[m[95m)p[m[95m[46m)[m[24;67H8[4;48H[?12l[?25h[?25l[95m[46m [m[95m) [m[95m[46m)[m[24;67H9[4;49H[?12l[?25h[?25l[95m[46mm[m[95m)m[m[95m[46m)[m[24;66H30[4;50H[?12l[?25h[?25l[95m[46me[m[95m)e[m[95m[46m)[m[24;67H1[4;51H[?12l[?25h[?25l[95m[46m![m[95m)![m[95m[46m)[m[24;67H2[4;52H[?12l[?25h[?25l[93m[46m'[m[38;5;81m)[m
+[1m[96mnumber[m=[38;5;81m$RANDOM[m
+[1m[96mRANGE[m=
+[93mlet[m [93m"[m[10C[38;5;81m$RANGE[m[93m"[m
+[96m#echo "Random number less than $RANGE  ---  $number"[m
+[93mecho[m[1C[38;5;81m${curses[$number]}[m[4;52H[93m'[m[38;5;81m[46m)[m[24;67H3[4;53H[?12l[?25h[?25l[38;5;224m[46m [m[38;5;81m)[m[38;5;224m [m[38;5;81m[46m)[m[24;67H4[4;54H[?12l[?25h[?25l[93m[46m'[m[95m)
+number=$RANDOM
+RANGE=
+let "[10C$RANGE"
+#echo "Random number less than $RANGE  ---  $number"
+echo ${curses[$number]}[m[4;54H[93m'[m[95m[46m)[m[24;67H5[4;55H[?12l[?25h[?25l[95m[46mt[m[95m)t[m[95m[46m)[m[24;67H6[4;56H[?12l[?25h[?25l[95m)[m[46m [m[95m[46m)[m[4;56H[K[24;67H5[4;55H[?12l[?25h[?25l[95m[46mT[m[95m)T[m[95m[46m)[m[24;67H6[4;56H[?12l[?25h[?25l[95m[46mh[m[95m)h[m[95m[46m)[m[24;67H7[4;57H[?12l[?25h[?25l[95m[46mi[m[95m)i[m[95m[46m)[m[24;67H8[4;58H[?12l[?25h[?25l[95m[46ms[m[95m)s[m[95m[46m)[m[24;67H9[4;59H[?12l[?25h[?25l[95m[46m [m[95m) [m[95m[46m)[m[24;66H40[4;60H[?12l[?25h[?25l[95m[46mi[m[95m)i[m[95m[46m)[m[24;67H1[4;61H[?12l[?25h[?25l[95m[46ms[m[95m)s[m[95m[46m)[m[24;67H2[4;62H[?12l[?25h[?25l[95m[46m [m[95m) [m[95m[46m)[m[24;67H3[4;63H[?12l[?25h[?25l[95m[46mb[m[95m)b[m[95m[46m)[m[24;67H4[4;64H[?12l[?25h[?25l[95m[46ma[m[95m)a[m[95m[46m)[m[24;67H5[4;65H[?12l[?25h[?25l[95m[46md[m[95m)d[m[95m[46m)[m[24;67H6[4;66H[?12l[?25h[?25l[93m[46m'[m[38;5;81m)[m
+[1m[96mnumber[m=[38;5;81m$RANDOM[m
+[1m[96mRANGE[m=
+[93mlet[m [93m"[m[10C[38;5;81m$RANGE[m[93m"[m
+[96m#echo "Random number less than $RANGE  ---  $number"[m
+[93mecho[m[1C[38;5;81m${curses[$number]}[m[4;66H[93m'[m[38;5;81m[46m)[m[24;67H7[4;67H[?12l[?25h[?25l[3;19H[38;5;81m([m[60C[95mnn[4;1Hi[m[65C[38;5;81m)[m[24;67H6[4;66H[?12l[?25h[?25l[95m.[m[93m'[m[38;5;81m)[m[24;67H7[4;67H[?12l[?25h[?25l[95m.[m[93m'[m[38;5;81m)[m[24;67H8[4;68H[?12l[?25h[?25l[95m.[m[93m'[m[38;5;81m)[m[24;67H9[4;69H[?12l[?25h[?25l[24;63H4,15 [5;15H[?12l[?25h[?25l[24;63H5,8 [6;8H[?12l[?25h[?25l[6;7H[K[24;65H7[6;7H[?12l[?25h[?25l[95m8[m[24;65H8[6;8H[?12l[?25h[24;1H[K[6;7H[?25l[24;63H5,7[11CAll[6;7H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"curse" 8L, 287C written
+[?1l>[?12l[?25h[?1049l]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ curse
+This is bad...
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ curse
+This is an inconvenience
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ curse
+HoW hAs ThIs hAppEneD?!!
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ curse
+For goodness sake!
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ curse
+This is bad...
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ curse
+Someone help me!
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ curse
+Someone help me!
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ curse
+This is bad...
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ curse
+For goodness sake!
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ curse
+For goodness sake!
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ curse
+HoW hAs ThIs hAppEneD?!!
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ curse
+Damn
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ curse
+Grr
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ curse
+This is bad...
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ curse
+Damn
+]0;michael@michael-virtual-machine: /bin[01;32mmichael@michael-virtual-machine[00m:[01;34m/bin[00m$ curse
+This is bad...
+]0;michael@michael-virtual
